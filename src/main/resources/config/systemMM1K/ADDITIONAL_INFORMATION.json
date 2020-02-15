@@ -1,0 +1,30 @@
+{
+	"config": "ADDITIONAL_INFORMATION",
+	"name": "systemMM1K",
+	"configCondition": [
+		"locale"
+	],
+	"values": [
+		{
+			"value": [
+				"Poisson-folyamat",
+				"Exponenciális eloszlású beérkezési időközök",
+				"Exponenciális eloszlású kiszolgálási időközök",
+				"<b>1</b> kiszolgáló",
+				"Maximálisan <b>K</b> igény tartózkodhat a rendszerben"
+			],
+			"locale": [
+				"hu"
+			]
+		},
+		{
+			"value": [
+				"Poisson process",
+				"Exponentially distributed arrival times",
+				"Exponentially distributed service times",
+				"<b>1</b> server",
+				"System capacity is <b>K</b>"
+			]
+		}
+	]
+}

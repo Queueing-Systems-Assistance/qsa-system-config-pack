@@ -1,0 +1,16 @@
+{
+	"config": "INPUTS_DEFAULT",
+	"name": "systemMM1nonPreemp",
+	"values": [
+		{
+			"value": [
+				"Lambda1",
+				"Lambda2",
+				"Mu",
+				"n",
+				"t",
+				"r"
+			]
+		}
+	]
+}

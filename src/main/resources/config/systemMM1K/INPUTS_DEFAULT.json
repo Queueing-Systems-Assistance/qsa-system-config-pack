@@ -1,0 +1,15 @@
+{
+	"config": "INPUTS_DEFAULT",
+	"name": "systemMM1K",
+	"values": [
+		{
+			"value": [
+				"Lambda",
+				"Mu",
+				"n",
+				"t",
+				"K"
+			]
+		}
+	]
+}

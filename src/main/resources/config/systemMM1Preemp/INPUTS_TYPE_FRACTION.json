@@ -1,0 +1,15 @@
+{
+	"config": "INPUTS_TYPE_FRACTION",
+	"name": "systemMM1Preemp",
+	"values": [
+		{
+			"value": [
+				"Lambda1",
+				"Lambda2",
+				"Mu",
+				"t",
+				"r"
+			]
+		}
+	]
+}

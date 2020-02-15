@@ -1,0 +1,22 @@
+{
+	"config": "OUTPUTS_DEFAULT",
+	"name": "systemMMnK",
+	"values": [
+		{
+			"value": [
+				"Ro",
+				"a",
+				"P0",
+				"Pn",
+				"PK",
+				"LambdaAvg",
+				"NAvg",
+				"QAvg",
+				"Pin",
+				"TAvg",
+				"WAvg",
+				"EWW0"
+			]
+		}
+	]
+}

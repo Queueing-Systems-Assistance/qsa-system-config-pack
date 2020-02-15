@@ -1,0 +1,13 @@
+{
+	"config": "INPUTS_TYPE_FRACTION",
+	"name": "systemMMnKK",
+	"values": [
+		{
+			"value": [
+				"Alpha",
+				"Mu",
+				"t"
+			]
+		}
+	]
+}

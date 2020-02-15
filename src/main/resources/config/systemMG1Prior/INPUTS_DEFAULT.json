@@ -1,0 +1,11 @@
+{
+	"config": "INPUTS_DEFAULT",
+	"name": "systemMG1Prior",
+	"values": [
+		{
+			"value": [
+				"n"
+			]
+		}
+	]
+}

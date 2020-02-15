@@ -1,0 +1,13 @@
+{
+	"config": "INPUTS_TYPE_FRACTION",
+	"name": "systemMM1K",
+	"values": [
+		{
+			"value": [
+				"Mu",
+				"Lambda",
+				"t"
+			]
+		}
+	]
+}

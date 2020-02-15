@@ -1,0 +1,15 @@
+{
+	"config": "INPUTS_REQUIRED",
+	"name": "systemMHypo1KK",
+	"values": [
+		{
+			"value": [
+				"Alpha",
+				"mu1",
+				"mu2",
+				"mu3",
+				"K"
+			]
+		}
+	]
+}

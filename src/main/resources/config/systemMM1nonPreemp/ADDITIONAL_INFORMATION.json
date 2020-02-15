@@ -1,0 +1,29 @@
+{
+	"config": "ADDITIONAL_INFORMATION",
+	"name": "systemMM1nonPreemp",
+	"configCondition": [
+		"locale"
+	],
+	"values": [
+		{
+			"value": [
+				"Poisson-folyamat",
+				"Exponenciális eloszlású beérkezési időközök",
+				"Exponenciális eloszlású kiszolgálási időközök",
+				"Az egyes típusú igény érkezésekor a kettes típusú igény kiszolgálása nem szakad meg, de a kiszolgálás befejeződésekor az egyes típusúak kiszolgálása kezdődik"
+			],
+			"locale": [
+				"hu"
+			]
+		},
+		{
+			"value": [
+				"Poisson process",
+				"Exponentially distributed arrival times",
+				"Exponentially distributed service times",
+				"Class 1 customer does not interrupt the service of class 2 request",
+				"Sometimes this discipline is call HOL ( Head Of the Line )"
+			]
+		}
+	]
+}

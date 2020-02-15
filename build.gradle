@@ -1,0 +1,78 @@
+plugins {
+	id("maven-publish")
+}
+
+ext {
+	/* Plugin Information */
+	jdkVersion = '11'
+	/* Project Information */
+	projectGroup = 'com.unideb.qsa'
+	projectMajorVersion = '1'
+	projectMinorVersion = '0'
+	projectBuildVersion = System.getenv('TRAVIS_BUILD_NUMBER') ?: '0-SNAPSHOT'
+	projectVersion = projectMajorVersion + '.' + projectMinorVersion + '.' + projectBuildVersion
+	/* Secrets */
+	githubToken = System.getenv('GITHUB_TOKEN') ?: ''
+	githubUsername = System.getenv('GITHUB_USERNAME') ?: ''
+	// Note: Use your own name and token
+	githubOwnUsername = System.getenv('GITHUB_OWN_USERNAME') ?: 'YOUR_USERNAME'
+	githubOwnToken = System.getenv('GITHUB_OWN_TOKEN') ?: 'YOUR_TOKEN'
+}
+
+group = projectGroup
+version = projectVersion
+
+apply plugin: 'maven'
+apply plugin: 'java'
+apply plugin: 'java-library'
+
+repositories {
+	mavenLocal()
+	mavenCentral()
+	jcenter()
+	maven {
+		url 'https://jitpack.io'
+	}
+	maven {
+		url 'https://maven.pkg.github.com/queueing-systems-assistance/qsa'
+		credentials {
+			username = githubOwnUsername
+			password = githubOwnToken
+		}
+	}
+}
+
+dependencies {
+	testImplementation group: 'com.unideb.qsa', name: 'qsa-config-domain', version: '1.0.1'
+	testImplementation group: 'com.unideb.qsa', name: 'qsa-config-validator', version: '1.0.1'
+	testImplementation group: 'org.testng', name: 'testng', version: '6.14.3'
+}
+
+publishing {
+	repositories {
+		maven {
+			name = 'GitHubPackages'
+			url = uri('https://maven.pkg.github.com/queueing-systems-assistance/qsa')
+			credentials {
+				username = githubUsername
+				password = githubToken
+			}
+		}
+	}
+	publications {
+		gpr(MavenPublication) {
+			from(components.java)
+		}
+	}
+}
+
+sourceCompatibility = jdkVersion
+
+tasks.withType(JavaCompile) {
+	options.encoding = 'UTF-8'
+}
+
+test {
+	useTestNG()
+	testLogging.showStandardStreams = true
+}

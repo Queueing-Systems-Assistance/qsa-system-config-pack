@@ -1,0 +1,27 @@
+{
+	"config": "OUTPUTS_DEFAULT",
+	"name": "systemMG1",
+	"values": [
+		{
+			"value": [
+				"Ro",
+				"PN1",
+				"SAvg",
+				"C2S",
+				"WAvg",
+				"EWW0",
+				"EW2",
+				"D2W",
+				"TAvg",
+				"ET2",
+				"D2T",
+				"QAvg",
+				"D2Q",
+				"NAvg",
+				"D2N",
+				"PiT90",
+				"PiT95"
+			]
+		}
+	]
+}

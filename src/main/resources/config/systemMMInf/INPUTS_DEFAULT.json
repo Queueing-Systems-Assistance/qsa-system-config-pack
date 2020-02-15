@@ -1,0 +1,14 @@
+{
+	"config": "INPUTS_DEFAULT",
+	"name": "systemMMInf",
+	"values": [
+		{
+			"value": [
+				"Lambda",
+				"Mu",
+				"n",
+				"t"
+			]
+		}
+	]
+}

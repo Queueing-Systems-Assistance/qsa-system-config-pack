@@ -1,0 +1,15 @@
+{
+	"config": "INPUTS_DEFAULT",
+	"name": "systemDDnKK",
+	"values": [
+		{
+			"value": [
+				"Alpha",
+				"Mu",
+				"c",
+				"K",
+				"n"
+			]
+		}
+	]
+}

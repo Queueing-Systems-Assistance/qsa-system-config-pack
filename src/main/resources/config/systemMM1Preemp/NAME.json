@@ -1,0 +1,18 @@
+{
+	"config": "NAME",
+	"name": "systemMM1Preemp",
+	"configCondition": [
+		"locale"
+	],
+	"values": [
+		{
+			"value": "M | M | 1 Abszolút Prioritásos",
+			"locale": [
+				"hu"
+			]
+		},
+		{
+			"value": "M | M | 1 Preemptive Priority"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"config": "INPUTS_DEFAULT",
+	"name": "systemMM1Balking",
+	"values": [
+		{
+			"value": [
+				"Lambda",
+				"Mu",
+				"n",
+				"t"
+			]
+		}
+	]
+}

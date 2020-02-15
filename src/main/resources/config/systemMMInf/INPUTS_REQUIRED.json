@@ -1,0 +1,12 @@
+{
+	"config": "INPUTS_REQUIRED",
+	"name": "systemMMInf",
+	"values": [
+		{
+			"value": [
+				"Mu",
+				"Lambda"
+			]
+		}
+	]
+}

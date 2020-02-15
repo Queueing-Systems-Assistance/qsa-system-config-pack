@@ -1,0 +1,24 @@
+{
+	"config": "OUTPUTS_DEFAULT",
+	"name": "systemMM1K",
+	"values": [
+		{
+			"value": [
+				"Ro",
+				"P0",
+				"Pn",
+				"PK",
+				"LambdaAvg",
+				"NAvg",
+				"QAvg",
+				"FTt",
+				"Pin",
+				"TAvg",
+				"WAvg",
+				"FWt",
+				"EWW0",
+				"a"
+			]
+		}
+	]
+}

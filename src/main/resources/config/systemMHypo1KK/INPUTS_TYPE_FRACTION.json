@@ -1,0 +1,14 @@
+{
+	"config": "INPUTS_TYPE_FRACTION",
+	"name": "systemMHypo1KK",
+	"values": [
+		{
+			"value": [
+				"Alpha",
+				"mu1",
+				"mu2",
+				"mu3"
+			]
+		}
+	]
+}

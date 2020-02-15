@@ -1,0 +1,18 @@
+{
+	"config": "OUTPUTS_DEFAULT",
+	"name": "systemMMnn",
+	"values": [
+		{
+			"value": [
+				"Ro",
+				"a",
+				"Pn",
+				"BcRo",
+				"LambdaAvg",
+				"NAvg",
+				"FTt",
+				"TAvg"
+			]
+		}
+	]
+}

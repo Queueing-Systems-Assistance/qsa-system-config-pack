@@ -1,0 +1,9 @@
+{
+	"config": "NAME",
+	"name": "systemMM1K",
+	"values": [
+		{
+			"value": "M | M | 1 | K"
+		}
+	]
+}

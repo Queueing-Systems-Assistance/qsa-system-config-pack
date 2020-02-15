@@ -1,0 +1,13 @@
+{
+	"config": "INPUTS_REQUIRED",
+	"name": "systemMErlang1KK",
+	"values": [
+		{
+			"value": [
+				"Alpha",
+				"Beta",
+				"K"
+			]
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"config": "INPUTS_TYPE_FRACTION",
+	"name": "systemMErlang1KK",
+	"values": [
+		{
+			"value": [
+				"Alpha",
+				"Beta"
+			]
+		}
+	]
+}

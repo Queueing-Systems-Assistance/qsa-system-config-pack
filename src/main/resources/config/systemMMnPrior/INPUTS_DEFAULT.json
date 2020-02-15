@@ -1,0 +1,17 @@
+{
+	"config": "INPUTS_DEFAULT",
+	"name": "systemMMnPrior",
+	"values": [
+		{
+			"value": [
+				"Mu",
+				"Lambda1",
+				"Lambda2",
+				"c",
+				"t",
+				"r",
+				"n"
+			]
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"config": "OUTPUTS_DEFAULT",
+	"name": "systemMMInf",
+	"values": [
+		{
+			"value": [
+				"Ro",
+				"P0",
+				"Pn",
+				"NAvg",
+				"D2N",
+				"TAvg",
+				"QAvg",
+				"WAvg",
+				"FTt"
+			]
+		}
+	]
+}

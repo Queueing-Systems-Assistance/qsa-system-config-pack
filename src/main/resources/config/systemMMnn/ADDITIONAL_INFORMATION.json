@@ -1,0 +1,30 @@
+{
+	"config": "ADDITIONAL_INFORMATION",
+	"name": "systemMMnn",
+	"configCondition": [
+		"locale"
+	],
+	"values": [
+		{
+			"value": [
+				"Poisson-folyamat",
+				"Exponenciális eloszlású beérkezési időközök",
+				"Exponenciális eloszlású kiszolgálási időközök",
+				"<b>c</b> kiszolgáló",
+				"<b>c</b> csatorna"
+			],
+			"locale": [
+				"hu"
+			]
+		},
+		{
+			"value": [
+				"Poisson process",
+				"Exponentially distributed arrival times",
+				"Exponentially distributed service times",
+				"<b>c</b> server",
+				"<b>c</b> channel"
+			]
+		}
+	]
+}

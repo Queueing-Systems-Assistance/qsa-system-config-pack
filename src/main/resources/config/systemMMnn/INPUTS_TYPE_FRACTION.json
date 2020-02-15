@@ -1,0 +1,13 @@
+{
+	"config": "INPUTS_TYPE_FRACTION",
+	"name": "systemMMnn",
+	"values": [
+		{
+			"value": [
+				"Lambda",
+				"Mu",
+				"t"
+			]
+		}
+	]
+}

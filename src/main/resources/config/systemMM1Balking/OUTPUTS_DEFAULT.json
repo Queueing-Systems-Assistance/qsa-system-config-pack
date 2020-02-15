@@ -1,0 +1,26 @@
+{
+	"config": "OUTPUTS_DEFAULT",
+	"name": "systemMM1Balking",
+	"values": [
+		{
+			"value": [
+				"LambdaN",
+				"Ro",
+				"bN",
+				"Pn",
+				"P0",
+				"US",
+				"NAvg",
+				"SAvg",
+				"D2N",
+				"QAvg",
+				"D2Q",
+				"D2W",
+				"D2T",
+				"TAvg",
+				"LambdaAvg",
+				"WAvg"
+			]
+		}
+	]
+}

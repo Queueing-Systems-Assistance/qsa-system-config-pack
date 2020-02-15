@@ -1,0 +1,21 @@
+notifications:
+  email:
+    on_success: always
+    on_failure: always
+
+os: linux
+sudo: required
+language: groovy
+jdk:
+  - "openjdk11"
+git:
+  depth: false
+
+before_install:
+  - chmod +x gradlew
+  - chmod +x ./support/pipeline/pipeline-setup.sh
+  - chmod +x ./support/pipeline/pipeline-backend.sh
+install:
+  - ./support/pipeline/pipeline-setup.sh
+script:
+  - ./support/pipeline/pipeline-backend.sh
