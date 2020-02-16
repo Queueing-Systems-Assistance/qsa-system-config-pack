@@ -4,7 +4,7 @@
 cd "${TRAVIS_BUILD_DIR}" || exit
 
 #### Docker Login
-echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin || exit
+echo "$DOCKER_PASSWORD" | docker login docker.pkg.github.com -u "$DOCKER_USERNAME" --password-stdin || exit
 
 #### Docker Build Image
 sudo docker build \
