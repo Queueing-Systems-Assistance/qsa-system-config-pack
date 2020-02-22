@@ -3,12 +3,7 @@
 	"name": "systemMM1Balking",
 	"values": [
 		{
-			"value": [
-				"Lambda",
-				"Mu",
-				"n",
-				"t"
-			]
+			"value": "Lambda,Mu,n,t"
 		}
 	]
 }

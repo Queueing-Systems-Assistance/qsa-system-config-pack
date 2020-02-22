@@ -6,25 +6,13 @@
 	],
 	"values": [
 		{
-			"value": [
-				"Poisson-folyamat",
-				"Exponenciális eloszlású beérkezési időközök",
-				"Exponenciális eloszlású kiszolgálási időközök",
-				"<b>c</b> kiszolgáló",
-				"<b>c</b> csatorna"
-			],
+			"value": "Poisson-folyamat<br>Exponenciális eloszlású beérkezési időközök<br>Exponenciális eloszlású kiszolgálási időközök<br><b>c</b> kiszolgáló<br><b>c</b> csatorna",
 			"locale": [
 				"hu"
 			]
 		},
 		{
-			"value": [
-				"Poisson process",
-				"Exponentially distributed arrival times",
-				"Exponentially distributed service times",
-				"<b>c</b> server",
-				"<b>c</b> channel"
-			]
+			"value": "Poisson process<br>Exponentially distributed arrival times<br>Exponentially distributed service times<br><b>c</b> server<br><b>c</b> channel"
 		}
 	]
 }

@@ -3,11 +3,7 @@
 	"name": "systemMMnn",
 	"values": [
 		{
-			"value": [
-				"Lambda",
-				"Mu",
-				"t"
-			]
+			"value": "Lambda,Mu,t"
 		}
 	]
 }

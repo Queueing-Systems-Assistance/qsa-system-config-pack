@@ -3,12 +3,7 @@
 	"name": "systemMM2",
 	"values": [
 		{
-			"value": [
-				"Lambda",
-				"Mu",
-				"t",
-				"r"
-			]
+			"value": "Lambda,Mu,t,r"
 		}
 	]
 }

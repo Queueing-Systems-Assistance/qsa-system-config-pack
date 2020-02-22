@@ -3,11 +3,7 @@
 	"name": "systemMMnPrior",
 	"values": [
 		{
-			"value": [
-				"Mu",
-				"Lambda1",
-				"Lambda2"
-			]
+			"value": "Mu,Lambda1,Lambda2"
 		}
 	]
 }

@@ -3,12 +3,7 @@
 	"name": "systemMMnK",
 	"values": [
 		{
-			"value": [
-				"Lambda",
-				"Mu",
-				"c",
-				"K"
-			]
+			"value": "Lambda,Mu,c,K"
 		}
 	]
 }
