@@ -3,11 +3,7 @@
 	"name": "systemMM1nonPreemp",
 	"values": [
 		{
-			"value": [
-				"Lambda1",
-				"Lambda2",
-				"Mu"
-			]
+			"value": "Lambda1,Lambda2,Mu"
 		}
 	]
 }

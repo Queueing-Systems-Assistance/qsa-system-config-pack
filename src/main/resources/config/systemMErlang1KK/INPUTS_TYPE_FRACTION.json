@@ -3,10 +3,7 @@
 	"name": "systemMErlang1KK",
 	"values": [
 		{
-			"value": [
-				"Alpha",
-				"Beta"
-			]
+			"value": "Alpha,Beta"
 		}
 	]
 }

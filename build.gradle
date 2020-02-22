@@ -38,7 +38,7 @@ repositories {
 
 dependencies {
 	testImplementation group: 'com.unideb.qsa', name: 'qsa-config-domain', version: '1.0.2'
-	testImplementation group: 'com.unideb.qsa', name: 'qsa-config-validator', version: '1.0.2'
+	testImplementation group: 'com.unideb.qsa', name: 'qsa-config-validator', version: '1.0.5'
 	testImplementation group: 'com.unideb.qsa', name: 'qsa-config-assembler', version: '1.0.1'
 
 	testImplementation group: 'org.testng', name: 'testng', version: '6.14.3'

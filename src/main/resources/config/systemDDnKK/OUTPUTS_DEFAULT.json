@@ -3,16 +3,7 @@
 	"name": "systemDDnKK",
 	"values": [
 		{
-			"value": [
-				"E0",
-				"LambdaAvg",
-				"NAvg",
-				"TAvg",
-				"WAvg",
-				"QAvg",
-				"a",
-				"z"
-			]
+			"value": "E0,LambdaAvg,NAvg,TAvg,WAvg,QAvg,a,z"
 		}
 	]
 }

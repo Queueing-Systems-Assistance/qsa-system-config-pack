@@ -3,13 +3,7 @@
 	"name": "systemMHypo1KK",
 	"values": [
 		{
-			"value": [
-				"Alpha",
-				"mu1",
-				"mu2",
-				"mu3",
-				"K"
-			]
+			"value": "Alpha,mu1,mu2,mu3,K"
 		}
 	]
 }

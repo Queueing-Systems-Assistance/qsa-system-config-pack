@@ -3,13 +3,7 @@
 	"name": "systemDDnKK",
 	"values": [
 		{
-			"value": [
-				"Alpha",
-				"Mu",
-				"c",
-				"K",
-				"n"
-			]
+			"value": "Alpha,Mu,c,K,n"
 		}
 	]
 }

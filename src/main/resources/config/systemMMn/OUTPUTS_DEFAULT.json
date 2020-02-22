@@ -3,33 +3,7 @@
 	"name": "systemMMn",
 	"values": [
 		{
-			"value": [
-				"Ro",
-				"US",
-				"a",
-				"P0",
-				"Pn",
-				"PNc",
-				"NAvg",
-				"D2N",
-				"QAvg",
-				"D2Q",
-				"WAvg",
-				"D2W",
-				"PiWr",
-				"PiW90",
-				"PiW95",
-				"WAvgW",
-				"EWW0",
-				"D2WW0",
-				"C1",
-				"C2",
-				"TAvg",
-				"ET2",
-				"D2T",
-				"PiT90",
-				"PiT95"
-			]
+			"value": "Ro,US,a,P0,Pn,PNc,NAvg,D2N,QAvg,D2Q,WAvg,D2W,PiWr,PiW90,PiW95,WAvgW,EWW0,D2WW0,C1,C2,TAvg,ET2,D2T,PiT90,PiT95"
 		}
 	]
 }

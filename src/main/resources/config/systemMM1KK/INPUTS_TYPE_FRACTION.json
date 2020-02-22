@@ -3,11 +3,7 @@
 	"name": "systemMM1KK",
 	"values": [
 		{
-			"value": [
-				"Mu",
-				"Alpha",
-				"t"
-			]
+			"value": "Mu,Alpha,t"
 		}
 	]
 }
