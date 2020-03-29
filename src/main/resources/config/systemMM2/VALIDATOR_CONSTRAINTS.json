@@ -1,0 +1,24 @@
+{
+	"config": "VALIDATOR_CONSTRAINTS",
+	"name": "systemMM2",
+	"configCondition": [
+		"feature"
+	],
+	"values": [
+		{
+			"feature": [
+				"n",
+				"t",
+				"r"
+			],
+			"value": "positiveOrZeroValidator"
+		},
+		{
+			"feature": [
+				"Lambda",
+				"Mu"
+			],
+			"value": "positiveValidator"
+		}
+	]
+}

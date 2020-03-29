@@ -1,0 +1,24 @@
+{
+	"config": "VALIDATOR_CONSTRAINTS",
+	"name": "systemDDnKK",
+	"configCondition": [
+		"feature"
+	],
+	"values": [
+		{
+			"feature": [
+				"n"
+			],
+			"value": "positiveOrZeroValidator"
+		},
+		{
+			"feature": [
+				"Alpha",
+				"Mu",
+				"c",
+				"K"
+			],
+			"value": "positiveValidator"
+		}
+	]
+}

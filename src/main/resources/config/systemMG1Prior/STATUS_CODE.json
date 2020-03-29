@@ -1,9 +1,0 @@
-{
-	"config": "STATUS_CODE",
-	"name": "systemMG1Prior",
-	"values": [
-		{
-			"value": "BETA"
-		}
-	]
-}
