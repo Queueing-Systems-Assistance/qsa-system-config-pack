@@ -1,0 +1,17 @@
+{
+	"config": "VALIDATOR_CONSTRAINTS",
+	"name": "systemMGamma1KK",
+	"configCondition": [
+		"feature"
+	],
+	"values": [
+		{
+			"feature": [
+				"Alpha",
+				"Beta",
+				"K"
+			],
+			"value": "positiveValidator"
+		}
+	]
+}

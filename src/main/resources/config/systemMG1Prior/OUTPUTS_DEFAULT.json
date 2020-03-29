@@ -1,9 +1,0 @@
-{
-	"config": "OUTPUTS_DEFAULT",
-	"name": "systemMG1Prior",
-	"values": [
-		{
-			"value": "a,WAvg,D2W,TAvg,ET2,D2T"
-		}
-	]
-}

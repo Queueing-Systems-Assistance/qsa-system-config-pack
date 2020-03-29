@@ -1,0 +1,24 @@
+{
+	"config": "VALIDATOR_CONSTRAINTS",
+	"name": "systemMMnn",
+	"configCondition": [
+		"feature"
+	],
+	"values": [
+		{
+			"feature": [
+				"n",
+				"t"
+			],
+			"value": "positiveOrZeroValidator"
+		},
+		{
+			"feature": [
+				"Lambda",
+				"Mu",
+				"c"
+			],
+			"value": "positiveValidator"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"config": "VALIDATOR_CONSTRAINTS",
+	"name": "systemMMnPrior",
+	"configCondition": [
+		"feature"
+	],
+	"values": [
+		{
+			"feature": [
+				"n",
+				"t",
+				"r"
+			],
+			"value": "positiveOrZeroValidator"
+		},
+		{
+			"feature": [
+				"Lambda1",
+				"Lambda2",
+				"Mu",
+				"c"
+			],
+			"value": "positiveValidator"
+		}
+	]
+}

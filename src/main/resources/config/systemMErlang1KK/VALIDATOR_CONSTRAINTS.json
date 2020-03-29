@@ -1,0 +1,17 @@
+{
+	"config": "VALIDATOR_CONSTRAINTS",
+	"name": "systemMErlang1KK",
+	"configCondition": [
+		"feature"
+	],
+	"values": [
+		{
+			"feature": [
+				"Alpha",
+				"Mu",
+				"K"
+			],
+			"value": "positiveValidator"
+		}
+	]
+}

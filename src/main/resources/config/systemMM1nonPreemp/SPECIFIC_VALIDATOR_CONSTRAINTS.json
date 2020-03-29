@@ -1,0 +1,12 @@
+{
+	"config": "SPECIFIC_VALIDATOR_CONSTRAINTS",
+	"name": "systemMM1nonPreemp",
+	"configCondition": [
+		"feature"
+	],
+	"values": [
+		{
+			"value": "smallerLambda1Lambda2FromMuValidator"
+		}
+	]
+}

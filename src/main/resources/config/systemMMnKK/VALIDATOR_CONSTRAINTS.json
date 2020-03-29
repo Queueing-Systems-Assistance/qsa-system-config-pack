@@ -1,0 +1,25 @@
+{
+	"config": "VALIDATOR_CONSTRAINTS",
+	"name": "systemMMnKK",
+	"configCondition": [
+		"feature"
+	],
+	"values": [
+		{
+			"feature": [
+				"n",
+				"t"
+			],
+			"value": "positiveOrZeroValidator"
+		},
+		{
+			"feature": [
+				"Alpha",
+				"Mu",
+				"c",
+				"K"
+			],
+			"value": "positiveValidator"
+		}
+	]
+}
