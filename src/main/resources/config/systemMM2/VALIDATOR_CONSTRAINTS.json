@@ -7,8 +7,6 @@
 	"values": [
 		{
 			"feature": [
-				"n",
-				"t",
 				"r"
 			],
 			"value": "positiveOrZeroValidator"
@@ -16,9 +14,16 @@
 		{
 			"feature": [
 				"Lambda",
-				"Mu"
+				"Mu",
+				"t"
 			],
 			"value": "positiveValidator"
+		},
+		{
+			"feature": [
+				"n"
+			],
+			"value": "positiveFrom1Validator"
 		}
 	]
 }
