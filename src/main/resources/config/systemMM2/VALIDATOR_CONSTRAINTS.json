@@ -23,7 +23,7 @@
 			"feature": [
 				"n"
 			],
-			"value": "positiveFrom1Validator"
+			"value": "positiveOrEqualsFrom1Validator"
 		}
 	]
 }
