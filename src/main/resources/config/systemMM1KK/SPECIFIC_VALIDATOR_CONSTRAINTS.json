@@ -3,7 +3,7 @@
 	"name": "systemMM1KK",
 	"values": [
 		{
-			"value": "smallerEqualsnFromKValidator,biggerKnFrom1"
+			"value": "smallerEqualsnFromKValidator,biggerKMin1From1"
 		}
 	]
 }
