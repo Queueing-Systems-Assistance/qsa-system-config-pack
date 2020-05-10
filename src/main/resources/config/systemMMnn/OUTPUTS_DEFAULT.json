@@ -3,7 +3,7 @@
 	"name": "systemMMnn",
 	"values": [
 		{
-			"value": "Ro,a,Pn,BcRo,LambdaAvg,NAvg,FTt,TAvg"
+			"value": "Ro,a,Pn,BcRo,LambdaAvg,NAvg,FTt,TAvg,eAvg,EDelta,US,P0"
 		}
 	]
 }
