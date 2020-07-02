@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a report if you find mistages, bugs related issue
+about: Create a report if you find mistakes, bugs related issue
 title: ''
 labels: ''
 assignees: ZoltanSzilagyiCse
