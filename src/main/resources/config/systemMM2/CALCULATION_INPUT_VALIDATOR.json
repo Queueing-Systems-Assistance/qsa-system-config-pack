@@ -1,0 +1,28 @@
+{
+	"config": "CALCULATION_INPUT_VALIDATOR",
+	"name": "systemMM2",
+	"configCondition": [
+        "feature",
+        "output"
+	],
+	"values": [
+		{
+            "value": "positiveValidator",
+            "output": [
+                "Pn"
+            ],
+            "feature": [
+                "n"
+            ]
+        },
+        {
+            "value": "positiveValidator",
+            "output": [
+                "WAvgW"
+            ],
+            "feature": [
+                "t"
+            ]
+        }
+	]
+}
