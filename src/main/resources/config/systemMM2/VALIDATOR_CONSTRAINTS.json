@@ -8,15 +8,15 @@
 		{
 			"feature": [
 				"r",
-				"t"
+				"t",
+				"n"
 			],
 			"value": "positiveOrZeroValidator"
 		},
 		{
 			"feature": [
 				"Lambda",
-				"Mu",
-				"n"
+				"Mu"
 			],
 			"value": "positiveValidator"
 		}
