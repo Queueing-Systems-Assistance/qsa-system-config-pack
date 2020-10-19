@@ -1,0 +1,9 @@
+{
+	"config": "SPECIFIC_VALIDATOR_CONSTRAINTS",
+	"name": "systemMM1K",
+	"values": [
+		{
+            "value": "smallerEqualsLambdaFromKMinusOneValidator,smallerMuFromKValidator"
+		}
+	]
+}
