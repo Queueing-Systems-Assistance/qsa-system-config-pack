@@ -9,6 +9,7 @@
         {
             "value": "positiveValidator",
             "output": [
+                "eAvg",
                 "US"
             ],
             "feature": [
