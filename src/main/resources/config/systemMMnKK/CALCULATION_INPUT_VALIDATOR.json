@@ -1,0 +1,16 @@
+{
+	"config": "CALCULATION_INPUT_VALIDATOR",
+	"name": "systemMMnKK",
+	"configCondition": [
+        "output"
+	],
+	"values": [
+        {
+            "value": "smallernFromKValidator",
+            "output": [
+                "PinK",
+                "PnKMin1"
+            ]
+        }
+	]
+}
