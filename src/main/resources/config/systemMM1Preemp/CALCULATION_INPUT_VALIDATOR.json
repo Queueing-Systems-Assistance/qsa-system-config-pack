@@ -1,0 +1,16 @@
+{
+	"config": "CALCULATION_INPUT_VALIDATOR",
+	"name": "systemMM1Preemp",
+	"configCondition": [
+        "output"
+	],
+	"values": [
+        {
+            "value": "smallerrFromHunderValidator",
+            "output": [
+                "PiTr",
+                "PiWr"
+            ]
+        }
+	]
+}
