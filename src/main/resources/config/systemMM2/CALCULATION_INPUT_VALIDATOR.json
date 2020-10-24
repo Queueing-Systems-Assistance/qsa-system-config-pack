@@ -23,6 +23,12 @@
             "feature": [
                 "t"
             ]
+        },
+        {
+            "value": "smallerrFromHunderValidator",
+            "output": [
+                "PiWr"
+            ]
         }
 	]
 }
