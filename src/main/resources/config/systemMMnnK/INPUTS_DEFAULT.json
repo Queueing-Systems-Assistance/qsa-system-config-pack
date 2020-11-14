@@ -1,0 +1,9 @@
+{
+	"config": "INPUTS_DEFAULT",
+	"name": "systemMMnnK",
+	"values": [
+		{
+			"value": "Lambda,Mu,c,K,n"
+		}
+	]
+}
