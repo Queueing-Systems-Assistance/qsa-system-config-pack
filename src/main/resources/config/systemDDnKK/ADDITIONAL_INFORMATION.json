@@ -1,0 +1,18 @@
+{
+	"config": "ADDITIONAL_INFORMATION",
+	"name": "systemDDnKK",
+	"configCondition": [
+		"locale"
+	],
+	"values": [
+		{
+			"value": "<b>D<b/><br><b>D<b/><br><b>c</b> kiszolgáló<br>Maximálisan <b>K</b> igény tartózkodhat a rendszerben<br><b>K</b> igényforrás",
+			"locale": [
+				"hu"
+			]
+		},
+		{
+			"value": "<b>D<b/><br><b>D<b/><br><b>c</b> servers<br>System capacity is <b>K</b><br><b>K</b> sources of customers"
+		}
+	]
+}

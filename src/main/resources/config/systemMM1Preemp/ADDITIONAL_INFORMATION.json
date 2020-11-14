@@ -6,7 +6,7 @@
 	],
 	"values": [
 		{
-			"value": "Poisson-folyamat<br>Exponenciális eloszlású beérkezési időközök<br>Exponenciális eloszlású kiszolgálási időközök<br>Ha egy kettes típusú igény kiszolgálás alatt áll és egy egyes típusú érkezik, akkor a kettes típusú megszakításra kerül és az egyes típusú kiszolgálása következik",
+			"value": "Poisson-folyamat<br>Exponenciális eloszlású beérkezési időközök<br>Exponenciális eloszlású kiszolgálási időközök<br>Ha egy kettes típusú igény kiszolgálás alatt áll és egy egyes típusú érkezik, akkor a kettes típusú kiszolgálása megszakításra kerül és az egyes típusú kiszolgálása következik",
 			"locale": [
 				"hu"
 			]
