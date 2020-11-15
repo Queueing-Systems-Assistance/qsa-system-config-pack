@@ -1,0 +1,9 @@
+{
+	"config": "OUTPUTS_DEFAULT",
+	"name": "systemMMnnK",
+	"values": [
+		{
+			"value": "Ro,P0,Pn,US,TAvg,NAvg,mAvg,Ut,ETau,ENR,PBKc"
+		}
+	]
+}
