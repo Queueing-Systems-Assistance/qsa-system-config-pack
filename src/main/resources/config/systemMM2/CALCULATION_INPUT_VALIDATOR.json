@@ -6,15 +6,6 @@
         "output"
 	],
 	"values": [
-		{
-            "value": "positiveValidator",
-            "output": [
-                "PNn"
-            ],
-            "feature": [
-                "n"
-            ]
-        },
         {
             "value": "positiveValidator",
             "output": [
