@@ -3,7 +3,7 @@
 	"name": "systemMM1K",
 	"values": [
 		{
-			"value": "Ro,P0,a,US,Pn,PK,LambdaAvg,NAvg,QAvg,FTt,Pin,TAvg,WAvg,FWt,EWW0"
+			"value": "Ro,P0,a,US,Pn,PK,LambdaAvg,NAvg,QAvg,FTt,Pin,TAvg,WAvg,FWt,EWW0,EDelta"
 		}
 	]
 }

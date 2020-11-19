@@ -7,15 +7,6 @@
 	],
 	"values": [
         {
-            "value": "positiveValidator",
-            "output": [
-                "WAvgW"
-            ],
-            "feature": [
-                "t"
-            ]
-        },
-        {
             "value": "smallerrFromHunderValidator",
             "output": [
                 "PiWr"
