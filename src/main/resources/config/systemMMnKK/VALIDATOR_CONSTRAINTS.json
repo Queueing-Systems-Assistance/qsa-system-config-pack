@@ -8,23 +8,18 @@
 		{
 			"feature": [
 				"n",
-				"t"
+                "t"
 			],
 			"value": "positiveOrZeroValidator"
 		},
 		{
 			"feature": [
 				"Alpha",
-				"Mu",
+                "Mu",
+                "c",
 				"K"
 			],
 			"value": "positiveValidator"
-		},
-		{
-			"feature": [
-				"c"
-			],
-			"value": "positiveFrom1Validator"
 		}
 	]
 }
