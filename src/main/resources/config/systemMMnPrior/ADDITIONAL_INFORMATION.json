@@ -12,7 +12,7 @@
 			]
 		},
 		{
-			"value": "Poisson process, c server<br>Exponentially distributed arrival times<br>Exponentially distributed service times<br>Class 1 customer does not interrupt the service of class 2 request<br>Sometimes this discipline is call HOL ( Head Of the Line )"
+			"value": "Poisson process, c servers<br>Exponentially distributed arrival times<br>Exponentially distributed service times<br>Class 1 customer does not interrupt the service of class 2 request<br>Sometimes this discipline is call HOL ( Head Of the Line )"
 		}
 	]
 }
