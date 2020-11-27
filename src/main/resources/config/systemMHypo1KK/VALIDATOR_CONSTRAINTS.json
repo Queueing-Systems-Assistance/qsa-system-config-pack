@@ -7,10 +7,10 @@
 	"values": [
 		{
 			"feature": [
-				"Alpha",
-				"mu1",
-				"mu2",
-				"mu3",
+				"Lambda",
+				"Mu1",
+				"Mu2",
+				"Mu3",
 				"K"
 			],
 			"value": "positiveValidator"
