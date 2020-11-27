@@ -3,7 +3,7 @@
 	"name": "systemMGamma1KK",
 	"values": [
 		{
-			"value": "E0,P0,LambdaAvg,NAvg,TAvg,WAvg,QAvg,a"
+			"value": "E0,P0,a,LambdaAvg,NAvg,TAvg,WAvg,QAvg"
 		}
 	]
 }
