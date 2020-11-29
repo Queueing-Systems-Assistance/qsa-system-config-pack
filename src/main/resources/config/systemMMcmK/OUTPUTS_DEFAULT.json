@@ -1,0 +1,9 @@
+{
+	"config": "OUTPUTS_DEFAULT",
+	"name": "systemMMcmK",
+	"values": [
+		{
+			"value": "Ro,P0"
+		}
+	]
+}

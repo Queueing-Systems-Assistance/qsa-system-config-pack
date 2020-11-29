@@ -1,0 +1,9 @@
+{
+	"config": "INPUTS_REQUIRED",
+	"name": "systemMMcmK",
+	"values": [
+		{
+			"value": "Lambda,Mu,c,m,K"
+		}
+	]
+}
