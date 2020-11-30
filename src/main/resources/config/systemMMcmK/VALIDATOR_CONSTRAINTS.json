@@ -1,0 +1,25 @@
+{
+	"config": "VALIDATOR_CONSTRAINTS",
+	"name": "systemMMcmK",
+	"configCondition": [
+		"feature"
+	],
+	"values": [
+		{
+			"feature": [
+				"n"
+			],
+			"value": "positiveOrZeroValidator"
+		},
+		{
+			"feature": [
+				"Lambda",
+                "Mu",
+                "c",
+                "m",
+				"K"
+			],
+			"value": "positiveValidator"
+		}
+	]
+}
