@@ -1,0 +1,21 @@
+{
+	"config": "CALCULATION_INPUT_VALIDATOR",
+	"name": "systemMMcmK",
+	"configCondition": [
+        "output"
+	],
+	"values": [
+        {
+            "value": "smallerEqualsnFrommValidator",
+            "output": [
+                "Pn"
+            ]
+        }, 
+        {
+            "value": "smallernFrommValidator",
+            "output": [
+                "Pin"
+            ]
+        }
+	]
+}
