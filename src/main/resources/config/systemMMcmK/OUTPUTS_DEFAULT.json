@@ -3,7 +3,7 @@
 	"name": "systemMMcmK",
 	"values": [
 		{
-			"value": "Ro,P0,Pn,Pin,PB,PW,cAvg,mAvg,US,a,Ut,LambdaAvg,NAvg,QAvg,WAvg,TAvg,ETau,ENR"
+			"value": "Ro,P0,Pn,Pin,PB,PW,cAvg,mAvg,US,a,Ut,LambdaAvg,NAvg,QAvg,WAvg,TAvg,ETau,ENR,FWt,FTt"
 		}
 	]
 }

@@ -16,6 +16,12 @@
             "output": [
                 "Pin"
             ]
+        },
+        {
+            "value": "equalsc1Validator",
+            "output": [
+                "FTt"
+            ]
         }
 	]
 }
