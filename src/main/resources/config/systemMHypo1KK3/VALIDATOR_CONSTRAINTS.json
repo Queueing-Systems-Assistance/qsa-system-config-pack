@@ -1,0 +1,19 @@
+{
+	"config": "VALIDATOR_CONSTRAINTS",
+	"name": "systemMHypo1KK3",
+	"configCondition": [
+		"feature"
+	],
+	"values": [
+		{
+			"feature": [
+				"Lambda",
+				"Mu1",
+				"Mu2",
+				"Mu3",
+				"K"
+			],
+			"value": "positiveValidator"
+		}
+	]
+}

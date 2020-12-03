@@ -1,0 +1,9 @@
+{
+	"config": "OUTPUTS_DEFAULT",
+	"name": "systemMHypo1KK2",
+	"values": [
+		{
+			"value": "E0,P0,LambdaAvg,NAvg,TAvg,WAvg,QAvg,a"
+		}
+	]
+}
