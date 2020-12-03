@@ -7,13 +7,6 @@
 	],
 	"values": [
         {
-            "value": "smallernFromKValidator",
-            "output": [
-                "PinK",
-                "PnKMin1"
-            ]
-        },
-        {
             "value" : "positiveFrom1Validator",
             "output": [
                 "FTt"
