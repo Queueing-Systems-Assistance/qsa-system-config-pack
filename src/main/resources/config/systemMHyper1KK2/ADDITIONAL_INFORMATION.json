@@ -1,0 +1,18 @@
+{
+	"config": "ADDITIONAL_INFORMATION",
+	"name": "systemMHyper1KK2",
+	"configCondition": [
+		"locale"
+	],
+	"values": [
+		{
+			"value": "Exponenciális eloszlású beérkezési időközök<br>Hiper-exponenciális eloszlású kiszolgálási időközök<br><b>1</b> kiszolgáló<br>Maximálisan <b>K</b> igény tartózkodhat a rendszerben<br><b>K</b> igényforrás<br><b>2</b> fázis",
+			"locale": [
+				"hu"
+			]
+		},
+		{
+			"value": "Exponentially distributed arrival times<br>Hyperexponentially distributed service times<br><b>1</b> server<br>System capacity is <b>K</b><br><b>K</b> sources of customers<br><b>2</b> phases"
+		}
+	]
+}
