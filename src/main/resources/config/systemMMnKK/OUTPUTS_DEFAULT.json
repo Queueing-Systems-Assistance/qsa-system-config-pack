@@ -3,7 +3,7 @@
 	"name": "systemMMnKK",
 	"values": [
 		{
-			"value": "Ro,E0,P0,Pn,Pin,PW,cAvg,mAvg,a,US,Ut,LambdaAvg,NAvg,QAvg,WAvg,EWW0,TAvg,FTt,FWt"
+			"value": "Ro,E0,P0,Pn,Pin,PW,cAvg,mAvg,a,US,Ut,LambdaAvg,NAvg,QAvg,WAvg,EWW0,TAvg,FTt,FWt,eAvg,EDelta"
 		}
 	]
 }
