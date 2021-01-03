@@ -1,9 +1,9 @@
 {
-	"config": "NAME",
-	"name": "systemMMnn",
-	"values": [
-		{
-			"value": "M | M | c | c"
-		}
-	]
+  "config": "NAME",
+  "name": "systemMMnn",
+  "values": [
+    {
+      "value": "M | M | c | c"
+    }
+  ]
 }

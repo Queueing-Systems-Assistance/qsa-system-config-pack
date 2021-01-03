@@ -1,12 +1,14 @@
 {
-	"config": "SPECIFIC_VALIDATOR_CONSTRAINTS",
-	"name": "systemMM2",
-	"configCondition": [
-		"feature"
-	],
-	"values": [
-		{
-			"value": "smallerLambdaFromMu2Validator"
-		}
-	]
+  "config": "SPECIFIC_VALIDATOR_CONSTRAINTS",
+  "name": "systemMM2",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "value": [
+        "smallerLambdaFromMu2Validator"
+      ]
+    }
+  ]
 }

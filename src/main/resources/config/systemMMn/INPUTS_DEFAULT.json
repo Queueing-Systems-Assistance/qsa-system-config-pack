@@ -1,9 +1,16 @@
 {
-	"config": "INPUTS_DEFAULT",
-	"name": "systemMMn",
-	"values": [
-		{
-			"value": "Lambda,Mu,n,t,r,c"
-		}
-	]
+  "config": "INPUTS_DEFAULT",
+  "name": "systemMMn",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "Mu",
+        "n",
+        "t",
+        "r",
+        "c"
+      ]
+    }
+  ]
 }

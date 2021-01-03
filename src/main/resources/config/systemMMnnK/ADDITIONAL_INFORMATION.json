@@ -1,18 +1,32 @@
 {
-	"config": "ADDITIONAL_INFORMATION",
-	"name": "systemMMnnK",
-	"configCondition": [
-		"locale"
-	],
-	"values": [
-		{
-			"value": "Poisson-folyamat<br>Exponenciális eloszlású beérkezési időközök<br>Exponenciális eloszlású kiszolgálási időközök<br><b>c</b> kiszolgáló<br>Maximálisan <b>c</b> igény tartózkodhat a rendszerben<br><b>K</b> igényforrás",
-			"locale": [
-				"hu"
-			]
-		},
-		{
-			"value": "Poisson process<br>Exponentially distributed arrival times<br>Exponentially distributed service times<br><b>c</b> servers<br>System capacity is <b>c</b><br><b>K</b> sources of customers"
-		}
-	]
+  "config": "ADDITIONAL_INFORMATION",
+  "name": "systemMMnnK",
+  "configCondition": [
+    "locale"
+  ],
+  "values": [
+    {
+      "value": [
+        "Poisson-folyamat",
+        "Exponenciális eloszlású beérkezési időközök",
+        "Exponenciális eloszlású kiszolgálási időközök",
+        "<b>c</b> kiszolgáló",
+        "Maximálisan <b>c</b> igény tartózkodhat a rendszerben",
+        "<b>K</b> igényforrás"
+      ],
+      "locale": [
+        "hu"
+      ]
+    },
+    {
+      "value": [
+        "Poisson process",
+        "Exponentially distributed arrival times",
+        "Exponentially distributed service times",
+        "<b>c</b> servers",
+        "System capacity is <b>c</b>",
+        "<b>K</b> sources of customers"
+      ]
+    }
+  ]
 }

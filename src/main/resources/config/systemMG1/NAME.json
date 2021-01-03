@@ -1,9 +1,9 @@
 {
-	"config": "NAME",
-	"name": "systemMG1",
-	"values": [
-		{
-			"value": "M | G | 1"
-		}
-	]
+  "config": "NAME",
+  "name": "systemMG1",
+  "values": [
+    {
+      "value": "M | G | 1"
+    }
+  ]
 }

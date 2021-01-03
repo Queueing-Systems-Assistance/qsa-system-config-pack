@@ -1,18 +1,18 @@
 {
-	"config": "NAME",
-	"name": "systemMM1Balking",
-	"configCondition": [
-		"locale"
-	],
-	"values": [
-		{
-			"value": "M | M | 1 Tétovázó",
-			"locale": [
-				"hu"
-			]
-		},
-		{
-			"value": "M | M | 1 Balking"
-		}
-	]
+  "config": "NAME",
+  "name": "systemMM1Balking",
+  "configCondition": [
+    "locale"
+  ],
+  "values": [
+    {
+      "value": "M | M | 1 Tétovázó",
+      "locale": [
+        "hu"
+      ]
+    },
+    {
+      "value": "M | M | 1 Balking"
+    }
+  ]
 }

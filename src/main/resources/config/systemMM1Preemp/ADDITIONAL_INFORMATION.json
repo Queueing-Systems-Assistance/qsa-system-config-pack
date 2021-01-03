@@ -1,18 +1,28 @@
 {
-	"config": "ADDITIONAL_INFORMATION",
-	"name": "systemMM1Preemp",
-	"configCondition": [
-		"locale"
-	],
-	"values": [
-		{
-			"value": "Poisson-folyamat<br>Exponenciális eloszlású beérkezési időközök<br>Exponenciális eloszlású kiszolgálási időközök<br>Ha egy kettes típusú igény kiszolgálás alatt áll és egy egyes típusú érkezik, akkor a kettes típusú kiszolgálása megszakításra kerül és az egyes típusú kiszolgálása következik",
-			"locale": [
-				"hu"
-			]
-		},
-		{
-			"value": "Poisson process<br>Exponentially distributed arrival times<br>Exponentially distributed service times<br>If a class 2 customer is under service when a class 1 request arrives the service stops and the service of class 1 request starts"
-		}
-	]
+  "config": "ADDITIONAL_INFORMATION",
+  "name": "systemMM1Preemp",
+  "configCondition": [
+    "locale"
+  ],
+  "values": [
+    {
+      "value": [
+        "Poisson-folyamat",
+        "Exponenciális eloszlású beérkezési időközök",
+        "Exponenciális eloszlású kiszolgálási időközök",
+        "Ha egy kettes típusú igény kiszolgálás alatt áll és egy egyes típusú érkezik, akkor a kettes típusú kiszolgálása megszakításra kerül és az egyes típusú kiszolgálása következik"
+      ],
+      "locale": [
+        "hu"
+      ]
+    },
+    {
+      "value": [
+        "Poisson process",
+        "Exponentially distributed arrival times",
+        "Exponentially distributed service times",
+        "If a class 2 customer is under service when a class 1 request arrives the service stops and the service of class 1 request starts"
+      ]
+    }
+  ]
 }

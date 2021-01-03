@@ -1,18 +1,18 @@
 {
-	"config": "NAME",
-	"name": "systemMHypo1KK2",
-	"configCondition": [
-		"locale"
-	],
-	"values": [
-		{
-			"value": "M | Hypo | 1 | K | K (2 fázis)",
-			"locale": [
-				"hu"
-			]
-		},
-		{
-			"value": "M | Hypo | 1 | K | K (2 phases)"
-		}
-	]
+  "config": "NAME",
+  "name": "systemMHypo1KK2",
+  "configCondition": [
+    "locale"
+  ],
+  "values": [
+    {
+      "value": "M | Hypo | 1 | K | K (2 fázis)",
+      "locale": [
+        "hu"
+      ]
+    },
+    {
+      "value": "M | Hypo | 1 | K | K (2 phases)"
+    }
+  ]
 }

@@ -1,9 +1,13 @@
 {
-	"config": "INPUTS_TYPE_FRACTION",
-	"name": "systemMGamma1KK",
-	"values": [
-		{
-			"value": "Lambda,Alpha,Mu"
-		}
-	]
+  "config": "INPUTS_TYPE_FRACTION",
+  "name": "systemMGamma1KK",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "Alpha",
+        "Mu"
+      ]
+    }
+  ]
 }

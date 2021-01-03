@@ -1,18 +1,30 @@
 {
-	"config": "ADDITIONAL_INFORMATION",
-	"name": "systemDDnKK",
-	"configCondition": [
-		"locale"
-	],
-	"values": [
-		{
-			"value": "Konstans érkezési időközök<br>Konstans kiszolgálási időközök<br><b>c</b> kiszolgáló<br>Maximálisan <b>K</b> igény tartózkodhat a rendszerben<br><b>K</b> igényforrás",
-			"locale": [
-				"hu"
-			]
-		},
-		{
-			"value": "Deterministic arrival times<br>Deterministic service times<br><b>c</b> servers<br>System capacity is <b>K</b><br><b>K</b> sources of customers"
-		}
-	]
+  "config": "ADDITIONAL_INFORMATION",
+  "name": "systemDDnKK",
+  "configCondition": [
+    "locale"
+  ],
+  "values": [
+    {
+      "value": [
+        "Konstans érkezési időközök",
+        "Konstans kiszolgálási időközök",
+        "<b>c</b> kiszolgáló",
+        "Maximálisan <b>K</b> igény tartózkodhat a rendszerben",
+        "<b>K</b> igényforrás"
+      ],
+      "locale": [
+        "hu"
+      ]
+    },
+    {
+      "value": [
+        "Deterministic arrival times",
+        "Deterministic service times",
+        "<b>c</b> servers",
+        "System capacity is <b>K</b>",
+        "<b>K</b> sources of customers"
+      ]
+    }
+  ]
 }

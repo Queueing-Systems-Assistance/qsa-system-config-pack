@@ -1,19 +1,19 @@
 {
-	"config": "CALCULATION_INPUT_VALIDATOR",
-	"name": "systemMMnKK",
-	"configCondition": [
-        "feature",
-        "output"
-	],
-	"values": [
-        {
-            "value" : "positiveFrom1Validator",
-            "output": [
-                "FTt"
-            ],
-            "feature": [
-                "c"
-            ]
-        }
-	]
+  "config": "CALCULATION_INPUT_VALIDATOR",
+  "name": "systemMMnKK",
+  "configCondition": [
+    "feature",
+    "output"
+  ],
+  "values": [
+    {
+      "value": "positiveFrom1Validator",
+      "output": [
+        "FTt"
+      ],
+      "feature": [
+        "c"
+      ]
+    }
+  ]
 }

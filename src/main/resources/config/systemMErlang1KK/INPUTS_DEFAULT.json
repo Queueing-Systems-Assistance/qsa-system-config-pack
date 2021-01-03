@@ -1,9 +1,14 @@
 {
-	"config": "INPUTS_DEFAULT",
-	"name": "systemMErlang1KK",
-	"values": [
-		{
-			"value": "Lambda,nErlang,Mu,K"
-		}
-	]
+  "config": "INPUTS_DEFAULT",
+  "name": "systemMErlang1KK",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "nErlang",
+        "Mu",
+        "K"
+      ]
+    }
+  ]
 }

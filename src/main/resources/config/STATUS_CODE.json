@@ -1,8 +1,8 @@
 {
-	"config": "STATUS_CODE",
-	"values": [
-		{
-			"value": "OK"
-		}
-	]
+  "config": "STATUS_CODE",
+  "values": [
+    {
+      "value": "OK"
+    }
+  ]
 }

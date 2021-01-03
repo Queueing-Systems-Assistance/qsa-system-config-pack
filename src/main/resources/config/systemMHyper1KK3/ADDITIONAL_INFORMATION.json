@@ -1,18 +1,32 @@
 {
-	"config": "ADDITIONAL_INFORMATION",
-	"name": "systemMHyper1KK3",
-	"configCondition": [
-		"locale"
-	],
-	"values": [
-		{
-			"value": "Exponenciális eloszlású beérkezési időközök<br>Hiper-exponenciális eloszlású kiszolgálási időközök<br><b>1</b> kiszolgáló<br>Maximálisan <b>K</b> igény tartózkodhat a rendszerben<br><b>K</b> igényforrás<br><b>3</b> fázis",
-			"locale": [
-				"hu"
-			]
-		},
-		{
-			"value": "Exponentially distributed arrival times<br>Hyperexponentially distributed service times<br><b>1</b> server<br>System capacity is <b>K</b><br><b>K</b> sources of customers<br><b>3</b> phases"
-		}
-	]
+  "config": "ADDITIONAL_INFORMATION",
+  "name": "systemMHyper1KK3",
+  "configCondition": [
+    "locale"
+  ],
+  "values": [
+    {
+      "value": [
+        "Exponenciális eloszlású beérkezési időközök",
+        "Hiper-exponenciális eloszlású kiszolgálási időközök",
+        "<b>1</b> kiszolgáló",
+        "Maximálisan <b>K</b> igény tartózkodhat a rendszerben",
+        "<b>K</b> igényforrás",
+        "<b>3</b> fázis"
+      ],
+      "locale": [
+        "hu"
+      ]
+    },
+    {
+      "value": [
+        "Exponentially distributed arrival times",
+        "Hyperexponentially distributed service times",
+        "<b>1</b> server",
+        "System capacity is <b>K</b>",
+        "<b>K</b> sources of customers",
+        "<b>3</b> phases"
+      ]
+    }
+  ]
 }

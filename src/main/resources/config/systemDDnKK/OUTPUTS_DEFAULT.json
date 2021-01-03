@@ -1,9 +1,18 @@
 {
-	"config": "OUTPUTS_DEFAULT",
-	"name": "systemDDnKK",
-	"values": [
-		{
-			"value": "E0,LambdaAvg,NAvg,TAvg,WAvg,QAvg,a,z"
-		}
-	]
+  "config": "OUTPUTS_DEFAULT",
+  "name": "systemDDnKK",
+  "values": [
+    {
+      "value": [
+        "E0",
+        "LambdaAvg",
+        "NAvg",
+        "TAvg",
+        "WAvg",
+        "QAvg",
+        "a",
+        "z"
+      ]
+    }
+  ]
 }

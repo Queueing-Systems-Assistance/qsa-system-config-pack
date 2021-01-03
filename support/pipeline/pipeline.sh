@@ -11,7 +11,7 @@ if [[ "${BRANCH_NAME}" != "master" ]]; then
   BRANCH_NAME=$(echo "${BRANCH_NAME}" | sed s#/#-#g | sed s/[.]/_/g | sed s#-#_#g | awk '{print $1""}') || exit
 fi
 
-GITHUB_ENDPOINT="https://${GITHUB_OWN_TOKEN}@github.com/${TRAVIS_REPO_SLUG}"
+GITHUB_ENDPOINT="https://${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}"
 RELEASE_VERSION=${PROJECT_MAJOR_VERSION}.${PROJECT_MINOR_VERSION}.${TRAVIS_BUILD_NUMBER}
 
 if [[ "${BRANCH_NAME}" != "master" ]]; then
@@ -25,7 +25,7 @@ echo "RELEASE_VERSION=${RELEASE_VERSION}"
 
 # Build
 echo "Build running"
-./gradlew clean build install || exit
+./gradlew clean build install -Prelease.version="${RELEASE_VERSION}" || exit
 
 # Docker Login
 echo "${DOCKER_PASSWORD}" | docker login docker.pkg.github.com -u "${DOCKER_USERNAME}" --password-stdin || exit

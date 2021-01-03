@@ -1,9 +1,36 @@
 {
-	"config": "OUTPUTS_DEFAULT",
-	"name": "systemMM2",
-	"values": [
-		{
-			"value": "Ro,US,a,P0,Pn,PNn,QAvg,PN2,D2Q,NAvg,D2N,FWt,WAvg,D2W,PiWr,PiW90,PiW95,WAvgW,EWW0,D2WW0,FTt,TAvg,ET2,D2T,PiT90,PiT95"
-		}
-	]
+  "config": "OUTPUTS_DEFAULT",
+  "name": "systemMM2",
+  "values": [
+    {
+      "value": [
+        "Ro",
+        "US",
+        "a",
+        "P0",
+        "Pn",
+        "PNn",
+        "QAvg",
+        "PN2",
+        "D2Q",
+        "NAvg",
+        "D2N",
+        "FWt",
+        "WAvg",
+        "D2W",
+        "PiWr",
+        "PiW90",
+        "PiW95",
+        "WAvgW",
+        "EWW0",
+        "D2WW0",
+        "FTt",
+        "TAvg",
+        "ET2",
+        "D2T",
+        "PiT90",
+        "PiT95"
+      ]
+    }
+  ]
 }

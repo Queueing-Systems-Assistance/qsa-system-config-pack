@@ -1,9 +1,23 @@
 {
-	"config": "OUTPUTS_DEFAULT",
-	"name": "systemMMnn",
-	"values": [
-		{
-			"value": "Ro,a,US,P0,Pn,BcRo,LambdaAvg,NAvg,D2N,FTt,TAvg,eAvg,EDeltar"
-		}
-	]
+  "config": "OUTPUTS_DEFAULT",
+  "name": "systemMMnn",
+  "values": [
+    {
+      "value": [
+        "Ro",
+        "a",
+        "US",
+        "P0",
+        "Pn",
+        "BcRo",
+        "LambdaAvg",
+        "NAvg",
+        "D2N",
+        "FTt",
+        "TAvg",
+        "eAvg",
+        "EDeltar"
+      ]
+    }
+  ]
 }

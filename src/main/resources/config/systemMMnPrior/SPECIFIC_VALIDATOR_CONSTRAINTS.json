@@ -1,12 +1,14 @@
 {
-	"config": "SPECIFIC_VALIDATOR_CONSTRAINTS",
-	"name": "systemMMnPrior",
-	"configCondition": [
-		"feature"
-	],
-	"values": [
-		{
-			"value": "smallerLambda1Lambda2FromMucValidator"
-		}
-	]
+  "config": "SPECIFIC_VALIDATOR_CONSTRAINTS",
+  "name": "systemMMnPrior",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "value": [
+        "smallerLambda1Lambda2FromMucValidator"
+      ]
+    }
+  ]
 }

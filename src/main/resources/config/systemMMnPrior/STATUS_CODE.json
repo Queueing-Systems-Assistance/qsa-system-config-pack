@@ -1,9 +1,9 @@
 {
-	"config": "STATUS_CODE",
-	"name": "systemMMnPrior",
-	"values": [
-		{
-			"value": "BETA"
-		}
-	]
+  "config": "STATUS_CODE",
+  "name": "systemMMnPrior",
+  "values": [
+    {
+      "value": "BETA"
+    }
+  ]
 }

@@ -1,9 +1,24 @@
 {
-	"config": "OUTPUTS_DEFAULT",
-	"name": "systemMMnnK",
-	"values": [
-		{
-			"value": "Ro,P0,Pn,Pin,PBKc,mAvg,US,a,Ut,LambdaAvg,NAvg,TAvg,ETau,ENR"
-		}
-	]
+  "config": "OUTPUTS_DEFAULT",
+  "name": "systemMMnnK",
+  "values": [
+    {
+      "value": [
+        "Ro",
+        "P0",
+        "Pn",
+        "Pin",
+        "PBKc",
+        "mAvg",
+        "US",
+        "a",
+        "Ut",
+        "LambdaAvg",
+        "NAvg",
+        "TAvg",
+        "ETau",
+        "ENR"
+      ]
+    }
+  ]
 }

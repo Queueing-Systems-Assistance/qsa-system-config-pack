@@ -1,24 +1,24 @@
 {
-	"config": "VALIDATOR_CONSTRAINTS",
-	"name": "systemMMnnK",
-	"configCondition": [
-		"feature"
-	],
-	"values": [
-		{
-			"feature": [
-				"n"
-			],
-			"value": "positiveOrZeroValidator"
-		},
-		{
-			"feature": [
-				"Lambda",
-				"Mu",
-                "c",
-                "K"
-			],
-			"value": "positiveValidator"
-		}
-	]
+  "config": "VALIDATOR_CONSTRAINTS",
+  "name": "systemMMnnK",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "feature": [
+        "n"
+      ],
+      "value": "positiveOrZeroValidator"
+    },
+    {
+      "feature": [
+        "Lambda",
+        "Mu",
+        "c",
+        "K"
+      ],
+      "value": "positiveValidator"
+    }
+  ]
 }

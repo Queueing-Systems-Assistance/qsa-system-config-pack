@@ -1,18 +1,18 @@
 {
-	"config": "NAME",
-	"name": "systemMMnPrior",
-	"configCondition": [
-		"locale"
-	],
-	"values": [
-		{
-			"value": "M | M | c | Relatív prioritásos",
-			"locale": [
-				"hu"
-			]
-		},
-		{
-			"value": "M | M | c Head of the Line Priority"
-		}
-	]
+  "config": "NAME",
+  "name": "systemMMnPrior",
+  "configCondition": [
+    "locale"
+  ],
+  "values": [
+    {
+      "value": "M | M | c | Relatív prioritásos",
+      "locale": [
+        "hu"
+      ]
+    },
+    {
+      "value": "M | M | c Head of the Line Priority"
+    }
+  ]
 }

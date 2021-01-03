@@ -1,27 +1,27 @@
 {
-	"config": "CALCULATION_INPUT_VALIDATOR",
-	"name": "systemMMcmK",
-	"configCondition": [
-        "output"
-	],
-	"values": [
-        {
-            "value": "smallerEqualsnFrommValidator",
-            "output": [
-                "Pn"
-            ]
-        }, 
-        {
-            "value": "smallernFrommValidator",
-            "output": [
-                "Pin"
-            ]
-        },
-        {
-            "value": "equalsc1Validator",
-            "output": [
-                "FTt"
-            ]
-        }
-	]
+  "config": "CALCULATION_INPUT_VALIDATOR",
+  "name": "systemMMcmK",
+  "configCondition": [
+    "output"
+  ],
+  "values": [
+    {
+      "value": "smallerEqualsnFrommValidator",
+      "output": [
+        "Pn"
+      ]
+    },
+    {
+      "value": "smallernFrommValidator",
+      "output": [
+        "Pin"
+      ]
+    },
+    {
+      "value": "equalsc1Validator",
+      "output": [
+        "FTt"
+      ]
+    }
+  ]
 }
