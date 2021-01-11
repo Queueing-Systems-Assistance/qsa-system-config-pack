@@ -3,7 +3,7 @@
 	"name": "systemMM1",
 	"values": [
 		{
-			"value": "Ro,US,NAvg,D2N,QAvg,D2Q,TAvg,D2T,D2TLCFS,D2TSIRO,WAvg,D2W,Pn,PNn,EQQ0,D2QQ0,PTt,FTt,PiTr,PiT90,PiT95,PWt,FWt,PiWr,PiW90,PiW95,ENdDelta,D2NdDelta,EDelta1,VarDelta"
+			"value": "Ro,US,NAvg,D2N,QAvg,D2Q,TAvg,D2T,D2TLCFS,D2TSIRO,WAvg,D2W,EWW0,D2WW0,Pn,PNn,EQQ0,D2QQ0,PTt,FTt,PiTr,PiT90,PiT95,PWt,FWt,PiWr,PiW90,PiW95,ENdDelta,D2NdDelta,PNdDeltan,EDelta1,VarDelta"
 		}
 	]
 }
