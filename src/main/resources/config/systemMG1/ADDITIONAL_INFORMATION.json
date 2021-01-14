@@ -1,0 +1,18 @@
+{
+	"config": "ADDITIONAL_INFORMATION",
+	"name": "systemMG1",
+	"configCondition": [
+		"locale"
+	],
+	"values": [
+		{
+			"value": "<b>1</b> kiszolgáló, Poisson beérkezés<br>Az érkező igények kiszolgálása FCFS módon történik<br>Beérkezési intenzitás <b>λ</b><br>Kiszolgálási intenzitás <b>µ</b>",
+			"locale": [
+				"hu"
+			]
+		},
+		{
+			"value": "Single-server queue with Poisson arrivals and a general service distribution<br>The customers are served FCFS<br>All service and interarrival times are independent<br>Arrival rate is <b>λ</b><br>Service rate is <b>µ</b>"
+		}
+	]
+}
