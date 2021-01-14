@@ -1,0 +1,9 @@
+{
+	"config": "INPUTS_REQUIRED",
+	"name": "systemMGamma1",
+	"values": [
+		{
+			"value": "Lambda,Mu,Alpha"
+		}
+	]
+}

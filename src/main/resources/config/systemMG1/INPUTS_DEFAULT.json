@@ -1,9 +1,0 @@
-{
-	"config": "INPUTS_DEFAULT",
-	"name": "systemMG1",
-	"values": [
-		{
-			"value": "Lambda,eS,eSPow2,eSPow3"
-		}
-	]
-}
