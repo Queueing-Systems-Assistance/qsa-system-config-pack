@@ -1,0 +1,9 @@
+{
+	"config": "INPUTS_TYPE_FRACTION",
+	"name": "systemMD1",
+	"values": [
+		{
+			"value": "Lambda,Ds"
+		}
+	]
+}
