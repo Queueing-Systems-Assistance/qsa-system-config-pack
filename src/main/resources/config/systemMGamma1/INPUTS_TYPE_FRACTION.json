@@ -3,7 +3,7 @@
 	"name": "systemMGamma1",
 	"values": [
 		{
-			"value": "Lambda,Mu,Alpha"
+			"value": "Lambda,Alpha,Mu"
 		}
 	]
 }

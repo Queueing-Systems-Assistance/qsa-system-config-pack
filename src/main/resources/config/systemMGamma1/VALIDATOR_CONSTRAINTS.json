@@ -8,8 +8,8 @@
 		{
 			"feature": [
 				"Lambda",
-				"Mu",
-				"Alpha"
+				"Alpha",
+				"Mu"
 			],
 			"value": "positiveValidator"
 		}
