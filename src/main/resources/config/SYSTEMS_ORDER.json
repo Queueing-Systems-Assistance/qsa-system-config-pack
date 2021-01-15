@@ -2,7 +2,7 @@
 	"config": "SYSTEMS_ORDER",
 	"values": [
 		{
-			"value": "systemMM1,systemMM1Balking,systemMM1Preemp,systemMM1nonPreemp,systemMM2,systemMM1K,systemMMInf,systemMMnn,systemMMn,systemMMnK,systemMG1,systemMGamma1,systemMM1KK,systemMMnKK,systemMMnnK,systemMMcmK,systemDDnKK,systemMD1KK,systemMErlang1KK,systemMHypo1KK2,systemMHypo1KK3,systemMHyper1KK2,systemMHyper1KK3,systemMGamma1KK,systemMMnPrior"
+			"value": "systemMM1,systemMM1Balking,systemMM1Preemp,systemMM1nonPreemp,systemMM2,systemMM1K,systemMMInf,systemMMnn,systemMMn,systemMMnK,systemMG1,systemMGamma1,systemMD1,systemMM1KK,systemMMnKK,systemMMnnK,systemMMcmK,systemDDnKK,systemMD1KK,systemMErlang1KK,systemMHypo1KK2,systemMHypo1KK3,systemMHyper1KK2,systemMHyper1KK3,systemMGamma1KK,systemMMnPrior"
 		}
 	]
 }

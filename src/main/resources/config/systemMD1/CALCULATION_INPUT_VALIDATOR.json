@@ -1,0 +1,15 @@
+{
+	"config": "CALCULATION_INPUT_VALIDATOR",
+	"name": "systemMD1",
+	"configCondition": [
+        "output"
+	],
+	"values": [
+        {
+            "value": "biggerEqualstFromDsValidator",
+            "output": [
+                "FTt"
+            ]
+        }
+	]
+}

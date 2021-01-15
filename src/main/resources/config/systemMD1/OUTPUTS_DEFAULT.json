@@ -4,7 +4,7 @@
 	"name": "systemMD1",
 	"values": [
 		{
-			"value": "Ro,Pn,PN1,SAvg,C2S,WAvg,EWW0,EW2,D2W,TAvg,ET2,D2T,D2TLCFS,D2TSIRO,FTt,QAvg,D2Q,NAvg,D2N,ENdDelta,D2NdDelta,EDelta1,VarDelta"
+			"value": "Ro,Pn,PN1,SAvg,C2S,WAvg,EWW0,EW2,D2W,TAvg,ET2,D2T,D2TLCFS,D2TSIRO,FTt,QAvg,D2Q,NAvg,D2N,ENdDelta,D2NdDelta,EDelta1,VarDelta,PiT90,PiT95"
 		}
 	]
 }

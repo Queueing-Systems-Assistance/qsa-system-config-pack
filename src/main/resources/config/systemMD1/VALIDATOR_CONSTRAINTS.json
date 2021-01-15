@@ -15,7 +15,8 @@
         },
         {
 			"feature": [
-				"n"
+                "n",
+                "t"
 			],
 			"value": "positiveOrZeroValidator"
 		}
