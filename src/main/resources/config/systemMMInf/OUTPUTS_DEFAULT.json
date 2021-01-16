@@ -3,7 +3,7 @@
 	"name": "systemMMInf",
 	"values": [
 		{
-			"value": "Ro,P0,Pn,NAvg,D2N,TAvg,QAvg,WAvg,FTt"
+			"value": "Ro,P0,Pn,NAvg,D2N,TAvg,QAvg,WAvg,FTt,EDeltar"
 		}
 	]
 }

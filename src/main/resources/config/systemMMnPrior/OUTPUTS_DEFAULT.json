@@ -3,7 +3,7 @@
 	"name": "systemMMnPrior",
 	"values": [
 		{
-			"value": "Ro,Lambda,a,P0,Pn,PNc,NAvg,NAvg1,NAvg2,D2N,QAvg,QAvg1,QAvg2,D2Q,WAvg,WAvg1,WAvg0,D2W,PiWr,PiW90,PiW95,WAvgW,WAvg2,EWW0,D2WW0,TAvg,TAvg1,TAvg2,ET2,D2T,PiT90,PiT95"
+			"value": "Ro,Lambda,a,P0,Pn,PNc,NAvg,NAvg1,NAvg2,D2N,QAvg,QAvg1,QAvg2,D2Q,WAvg,WAvg1,WAvg0,D2W,PiWr,PiW90,PiW95,WAvgW,WAvg2,EWW0,D2WW0,TAvg,TAvg1,TAvg2,ET2,D2T,PiT90,PiT95,EDeltar"
 		}
 	]
 }
