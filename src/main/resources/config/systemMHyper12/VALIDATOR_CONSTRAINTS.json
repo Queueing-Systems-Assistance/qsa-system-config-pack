@@ -1,7 +1,7 @@
 
 {
 	"config": "VALIDATOR_CONSTRAINTS",
-	"name": "systemMG1",
+	"name": "systemMHyper12",
 	"configCondition": [
 		"feature"
 	],
@@ -9,11 +9,12 @@
 		{
 			"feature": [
 				"Lambda",
-				"eS",
-				"eSPow2",
-				"eSPow3"
+                "Mu1",
+                "Mu2",
+                "p1",
+                "p2"
 			],
 			"value": "positiveValidator"
-		}
+        }
 	]
 }

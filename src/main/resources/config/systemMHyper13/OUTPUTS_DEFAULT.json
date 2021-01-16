@@ -1,7 +1,7 @@
   
 {
 	"config": "OUTPUTS_DEFAULT",
-	"name": "systemMG1",
+	"name": "systemMHyper13",
 	"values": [
 		{
 			"value": "Ro,PN1,SAvg,C2S,WAvg,EWW0,EW2,D2W,TAvg,ET2,D2T,D2TLCFS,D2TSIRO,QAvg,D2Q,NAvg,D2N,ENdDelta,D2NdDelta,EDelta1,VarDelta,PiT90,PiT95"

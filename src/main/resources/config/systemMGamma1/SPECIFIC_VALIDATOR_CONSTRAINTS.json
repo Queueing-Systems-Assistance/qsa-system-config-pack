@@ -1,12 +1,12 @@
 {
 	"config": "SPECIFIC_VALIDATOR_CONSTRAINTS",
-	"name": "systemMG1",
+	"name": "systemMGamma1",
 	"configCondition": [
 		"feature"
 	],
 	"values": [
 		{
-			"value": "smallerLambdaEsFrom1Validator"
+			"value": "smallerLambdaAlphaMuFrom1Validator"
 		}
 	]
 }

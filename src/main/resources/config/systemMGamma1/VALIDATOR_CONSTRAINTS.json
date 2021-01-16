@@ -1,7 +1,6 @@
-
 {
 	"config": "VALIDATOR_CONSTRAINTS",
-	"name": "systemMG1",
+	"name": "systemMGamma1",
 	"configCondition": [
 		"feature"
 	],
@@ -9,9 +8,8 @@
 		{
 			"feature": [
 				"Lambda",
-				"eS",
-				"eSPow2",
-				"eSPow3"
+				"Alpha",
+				"Mu"
 			],
 			"value": "positiveValidator"
 		}

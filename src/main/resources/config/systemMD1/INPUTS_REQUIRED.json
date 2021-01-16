@@ -1,0 +1,9 @@
+{
+	"config": "INPUTS_REQUIRED",
+	"name": "systemMD1",
+	"values": [
+		{
+			"value": "Lambda,Ds"
+		}
+	]
+}

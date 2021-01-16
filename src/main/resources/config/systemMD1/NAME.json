@@ -1,10 +1,10 @@
   
 {
 	"config": "NAME",
-	"name": "systemMG1",
+	"name": "systemMD1",
 	"values": [
 		{
-			"value": "M | G | 1"
+			"value": "M | D | 1"
 		}
 	]
 }
