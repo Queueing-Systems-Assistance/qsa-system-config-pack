@@ -3,7 +3,7 @@
 	"name": "systemMHypo1KK3",
 	"values": [
 		{
-			"value": "Lambda,Mu1,Mu2,Mu3,K"
+			"value": "Lambda,Mu1,Mu2,Mu3,K,n"
 		}
 	]
 }

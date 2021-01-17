@@ -3,7 +3,7 @@
 	"name": "systemMErlang1KK",
 	"values": [
 		{
-			"value": "E0,SAvg,P0,a,Ut,mAvg,LambdaAvg,TAvg,NAvg,WAvg,QAvg,EDelta1"
+			"value": "E0,SAvg,P0,Pn,Pin,a,Ut,mAvg,LambdaAvg,TAvg,NAvg,EN2,D2N,WAvg,QAvg,EQ2,D2Q,EDelta1"
 		}
 	]
 }
