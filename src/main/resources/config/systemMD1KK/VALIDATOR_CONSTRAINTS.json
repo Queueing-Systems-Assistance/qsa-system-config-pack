@@ -1,17 +1,17 @@
 {
-	"config": "VALIDATOR_CONSTRAINTS",
-	"name": "systemMD1KK",
-	"configCondition": [
-		"feature"
-	],
-	"values": [
-		{
-			"feature": [
-				"Lambda",
-				"Ds",
-                "K"
-			],
-			"value": "positiveValidator"
-		}
-	]
+  "config": "VALIDATOR_CONSTRAINTS",
+  "name": "systemMD1KK",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "feature": [
+        "Lambda",
+        "Ds",
+        "K"
+      ],
+      "value": "positiveValidator"
+    }
+  ]
 }
