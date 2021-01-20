@@ -12,7 +12,8 @@
         "TAvg",
         "QAvg",
         "WAvg",
-        "FTt"
+        "FTt",
+				"EDeltar"
       ]
     }
   ]

@@ -1,0 +1,9 @@
+{
+	"config": "INPUTS_TYPE_FRACTION",
+	"name": "systemMGamma1",
+	"values": [
+		{
+			"value": "Lambda,Alpha,Mu"
+		}
+	]
+}

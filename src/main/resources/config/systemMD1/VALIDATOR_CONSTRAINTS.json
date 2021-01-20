@@ -1,0 +1,24 @@
+
+{
+	"config": "VALIDATOR_CONSTRAINTS",
+	"name": "systemMD1",
+	"configCondition": [
+		"feature"
+	],
+	"values": [
+		{
+			"feature": [
+				"Lambda",
+				"Ds"
+			],
+			"value": "positiveValidator"
+        },
+        {
+			"feature": [
+                "n",
+                "t"
+			],
+			"value": "positiveOrZeroValidator"
+		}
+	]
+}

@@ -24,7 +24,9 @@
         "ENdDelta",
         "D2NdDelta",
         "EDelta1",
-        "VarDelta"
+        "VarDelta",
+				"PiT90Appr",
+				"PiT95Appr"
       ]
     }
   ]

@@ -1,0 +1,9 @@
+{
+	"config": "OUTPUTS_DEFAULT",
+	"name": "systemMD1KK",
+	"values": [
+		{
+			"value": "E0,SAvg,P0,a,Ut,mAvg,LambdaAvg,TAvg,NAvg,WAvg,QAvg,EDelta1"
+		}
+	]
+}

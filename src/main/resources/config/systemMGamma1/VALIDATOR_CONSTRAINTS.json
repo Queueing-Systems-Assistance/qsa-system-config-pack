@@ -1,0 +1,17 @@
+{
+	"config": "VALIDATOR_CONSTRAINTS",
+	"name": "systemMGamma1",
+	"configCondition": [
+		"feature"
+	],
+	"values": [
+		{
+			"feature": [
+				"Lambda",
+				"Alpha",
+				"Mu"
+			],
+			"value": "positiveValidator"
+		}
+	]
+}

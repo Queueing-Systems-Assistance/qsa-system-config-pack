@@ -1,0 +1,18 @@
+{
+	"config": "ADDITIONAL_INFORMATION",
+	"name": "systemMGamma1",
+	"configCondition": [
+		"locale"
+	],
+	"values": [
+		{
+			"value": "<b>1</b> kiszolgáló, Poisson beérkezés<br>Gamma eloszlású kiszolgálási időközök<br>Beérkezési intenzitás <b>λ</b><br>Kiszolgálási intenzitás <b>µ</b>",
+			"locale": [
+				"hu"
+			]
+		},
+		{
+			"value": "Single-server queue with Poisson arrivals<br>Gamma distributed service times<br>Arrival rate is <b>λ</b><br>Service rate is <b>µ</b>"
+		}
+	]
+}
