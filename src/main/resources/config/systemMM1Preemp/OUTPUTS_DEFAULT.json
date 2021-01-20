@@ -1,9 +1,45 @@
 {
-	"config": "OUTPUTS_DEFAULT",
-	"name": "systemMM1Preemp",
-	"values": [
-		{
-			"value": "Ro,Ro1,Ro2,US,NAvg,NAvg1,NAvg2,D2N,QAvg,QAvg1,QAvg2,D2Q,TAvg,TAvg1,TAvg2,D2T,WAvg,WAvg1,WAvg2,D2W,Pn,PNn,EQQ0,D2QQ0,PTt,FTt,PiTr,PiT90,PiT95,PWt,FWt,PiWr,PiW90,PiW95,EDelta1"
-		}
-	]
+  "config": "OUTPUTS_DEFAULT",
+  "name": "systemMM1Preemp",
+  "values": [
+    {
+      "value": [
+        "Ro",
+        "Ro1",
+        "Ro2",
+        "US",
+        "NAvg",
+        "NAvg1",
+        "NAvg2",
+        "D2N",
+        "QAvg",
+        "QAvg1",
+        "QAvg2",
+        "D2Q",
+        "TAvg",
+        "TAvg1",
+        "TAvg2",
+        "D2T",
+        "WAvg",
+        "WAvg1",
+        "WAvg2",
+        "D2W",
+        "Pn",
+        "PNn",
+        "EQQ0",
+        "D2QQ0",
+        "PTt",
+        "FTt",
+        "PiTr",
+        "PiT90",
+        "PiT95",
+        "PWt",
+        "FWt",
+        "PiWr",
+        "PiW90",
+        "PiW95",
+        "EDelta1"
+      ]
+    }
+  ]
 }

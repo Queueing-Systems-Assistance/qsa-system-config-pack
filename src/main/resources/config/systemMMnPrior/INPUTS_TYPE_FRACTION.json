@@ -1,9 +1,13 @@
 {
-	"config": "INPUTS_TYPE_FRACTION",
-	"name": "systemMMnPrior",
-	"values": [
-		{
-			"value": "Mu,Lambda1,Lambda2"
-		}
-	]
+  "config": "INPUTS_TYPE_FRACTION",
+  "name": "systemMMnPrior",
+  "values": [
+    {
+      "value": [
+        "Mu",
+        "Lambda1",
+        "Lambda2"
+      ]
+    }
+  ]
 }

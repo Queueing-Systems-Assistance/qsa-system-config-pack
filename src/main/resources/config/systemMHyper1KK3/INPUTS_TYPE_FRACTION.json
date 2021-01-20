@@ -1,9 +1,17 @@
 {
-	"config": "INPUTS_TYPE_FRACTION",
-	"name": "systemMHyper1KK3",
-	"values": [
-		{
-			"value": "Lambda,Mu1,Mu2,Mu3,p1,p2,p3"
-		}
-	]
+  "config": "INPUTS_TYPE_FRACTION",
+  "name": "systemMHyper1KK3",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "Mu1",
+        "Mu2",
+        "Mu3",
+        "p1",
+        "p2",
+        "p3"
+      ]
+    }
+  ]
 }

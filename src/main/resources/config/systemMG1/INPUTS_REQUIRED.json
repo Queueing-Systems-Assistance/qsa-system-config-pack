@@ -1,9 +1,14 @@
 {
-	"config": "INPUTS_REQUIRED",
-	"name": "systemMG1",
-	"values": [
-		{
-			"value": "Lambda,eS,eSPow2,eSPow3"
-		}
-	]
+  "config": "INPUTS_REQUIRED",
+  "name": "systemMG1",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "eS",
+        "eSPow2",
+        "eSPow3"
+      ]
+    }
+  ]
 }

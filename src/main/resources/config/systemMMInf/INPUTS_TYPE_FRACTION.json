@@ -1,9 +1,13 @@
 {
-	"config": "INPUTS_TYPE_FRACTION",
-	"name": "systemMMInf",
-	"values": [
-		{
-			"value": "Lambda,Mu,t"
-		}
-	]
+  "config": "INPUTS_TYPE_FRACTION",
+  "name": "systemMMInf",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "Mu",
+        "t"
+      ]
+    }
+  ]
 }

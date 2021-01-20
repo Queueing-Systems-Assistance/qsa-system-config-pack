@@ -1,9 +1,12 @@
 {
-	"config": "INPUTS_REQUIRED",
-	"name": "systemMM1",
-	"values": [
-		{
-			"value": "Mu,Lambda"
-		}
-	]
+  "config": "INPUTS_REQUIRED",
+  "name": "systemMM1",
+  "values": [
+    {
+      "value": [
+        "Mu",
+        "Lambda"
+      ]
+    }
+  ]
 }

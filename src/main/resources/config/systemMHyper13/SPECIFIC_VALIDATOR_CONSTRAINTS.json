@@ -1,12 +1,15 @@
 {
-	"config": "SPECIFIC_VALIDATOR_CONSTRAINTS",
-	"name": "systemMHyper13",
-	"configCondition": [
-		"feature"
-	],
-	"values": [
-		{
-			"value": "smallerLambdaEsFrom1H3Validator,equalsp1p2p3To1Validator"
-		}
-	]
+  "config": "SPECIFIC_VALIDATOR_CONSTRAINTS",
+  "name": "systemMHyper13",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "value": [
+        "smallerLambdaEsFrom1H3Validator",
+        "equalsp1p2p3To1Validator"
+      ]
+    }
+  ]
 }

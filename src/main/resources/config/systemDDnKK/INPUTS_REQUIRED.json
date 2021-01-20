@@ -1,9 +1,14 @@
 {
-	"config": "INPUTS_REQUIRED",
-	"name": "systemDDnKK",
-	"values": [
-		{
-			"value": "Da,Ds,c,K"
-		}
-	]
+  "config": "INPUTS_REQUIRED",
+  "name": "systemDDnKK",
+  "values": [
+    {
+      "value": [
+        "Da",
+        "Ds",
+        "c",
+        "K"
+      ]
+    }
+  ]
 }

@@ -1,9 +1,14 @@
 {
-	"config": "INPUTS_TYPE_FRACTION",
-	"name": "systemMG1",
-	"values": [
-		{
-			"value": "Lambda,eS,eSPow2,eSPow3"
-		}
-	]
+  "config": "INPUTS_TYPE_FRACTION",
+  "name": "systemMG1",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "eS",
+        "eSPow2",
+        "eSPow3"
+      ]
+    }
+  ]
 }

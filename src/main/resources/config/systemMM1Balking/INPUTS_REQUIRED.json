@@ -1,9 +1,12 @@
 {
-	"config": "INPUTS_REQUIRED",
-	"name": "systemMM1Balking",
-	"values": [
-		{
-			"value": "Lambda,Mu"
-		}
-	]
+  "config": "INPUTS_REQUIRED",
+  "name": "systemMM1Balking",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "Mu"
+      ]
+    }
+  ]
 }
