@@ -1,9 +1,13 @@
 {
-	"config": "INPUTS_REQUIRED",
-	"name": "systemMD1KK",
-	"values": [
-		{
-			"value": "Lambda,Ds,K"
-		}
-	]
+  "config": "INPUTS_REQUIRED",
+  "name": "systemMD1KK",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "Ds",
+        "K"
+      ]
+    }
+  ]
 }

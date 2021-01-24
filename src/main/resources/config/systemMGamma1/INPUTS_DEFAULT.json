@@ -1,9 +1,13 @@
 {
-	"config": "INPUTS_DEFAULT",
-	"name": "systemMGamma1",
-	"values": [
-		{
-			"value": "Lambda,Alpha,Mu"
-		}
-	]
+  "config": "INPUTS_DEFAULT",
+  "name": "systemMGamma1",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "Alpha",
+        "Mu"
+      ]
+    }
+  ]
 }

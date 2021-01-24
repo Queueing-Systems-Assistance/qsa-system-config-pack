@@ -1,16 +1,12 @@
 ext {
-	/* Plugin Information */
-	jdkVersion = '11'
 	/* Project Information */
 	projectGroup = 'com.unideb.qsa'
-	projectMajorVersion = '1'
-	projectMinorVersion = '0'
-	projectBuildVersion = System.getenv('TRAVIS_BUILD_NUMBER') ?: '0-SNAPSHOT'
-	projectVersion = projectMajorVersion + '.' + projectMinorVersion + '.' + projectBuildVersion
+	projectVersion = project.getProperties().get('release.version') ?: 'RELEASE.VERSION.UNKNOWN'
 	/* Secrets */
-	// Note: Use your own name and token
-	githubOwnUsername = System.getenv('GITHUB_OWN_USERNAME') ?: 'YOUR_USERNAME'
-	githubOwnToken = System.getenv('GITHUB_OWN_TOKEN') ?: 'YOUR_TOKEN'
+	// Note: Use your username and token
+	githubToken = System.getenv('GITHUB_TOKEN') ?: 'YOUR_TOKEN'
+	githubUsername = System.getenv('GITHUB_USERNAME') ?: 'YOUR_USERNAME'
+	print('Release version [' + projectVersion + ']')
 }
 
 group = projectGroup
@@ -30,21 +26,20 @@ repositories {
 	maven {
 		url 'https://maven.pkg.github.com/queueing-systems-assistance/qsa'
 		credentials {
-			username = githubOwnUsername
-			password = githubOwnToken
+			username = githubUsername
+			password = githubToken
 		}
 	}
 }
 
 dependencies {
-	testImplementation group: 'com.unideb.qsa', name: 'qsa-config-domain', version: '1.0.2'
-	testImplementation group: 'com.unideb.qsa', name: 'qsa-config-validator', version: '1.0.8'
-	testImplementation group: 'com.unideb.qsa', name: 'qsa-config-assembler', version: '1.0.1'
-
-	testImplementation group: 'org.testng', name: 'testng', version: '6.14.3'
+	testImplementation 'com.unideb.qsa:qsa-config-domain:1.0.11'
+	testImplementation 'com.unideb.qsa:qsa-config-validator:1.0.13'
+	testImplementation 'com.unideb.qsa:qsa-config-assembler:1.0.3'
+	testImplementation 'org.testng:testng:7.3.0'
 }
 
-sourceCompatibility = jdkVersion
+sourceCompatibility = '11'
 
 tasks.withType(JavaCompile) {
 	options.encoding = 'UTF-8'

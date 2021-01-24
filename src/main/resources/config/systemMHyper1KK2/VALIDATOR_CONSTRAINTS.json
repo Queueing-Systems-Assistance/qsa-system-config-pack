@@ -1,26 +1,26 @@
 {
-	"config": "VALIDATOR_CONSTRAINTS",
-	"name": "systemMHyper1KK2",
-	"configCondition": [
-		"feature"
-	],
-	"values": [
-		{
-			"feature": [
-				"Lambda",
-				"Mu1",
-				"Mu2",
-				"p1",
-				"p2",
-				"K"
-			],
-			"value": "positiveValidator"
-		},
-        {
-			"feature": [
-				"n"
-			],
-			"value": "positiveOrZeroValidator"
-		}
-	]
+  "config": "VALIDATOR_CONSTRAINTS",
+  "name": "systemMHyper1KK2",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "feature": [
+        "Lambda",
+        "Mu1",
+        "Mu2",
+        "p1",
+        "p2",
+        "K"
+      ],
+      "value": "positiveValidator"
+    },
+    {
+        "feature": [
+            "n"
+        ],
+        "value": "positiveOrZeroValidator"
+    }
+  ]
 }

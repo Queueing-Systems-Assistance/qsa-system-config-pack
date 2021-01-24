@@ -1,9 +1,12 @@
 {
-	"config": "SPECIFIC_VALIDATOR_CONSTRAINTS",
-	"name": "systemMMnKK",
-	"values": [
-		{
-			"value": "smallercFromKValidator,smallerEqualsnFromKValidator"
-		}
-	]
+  "config": "SPECIFIC_VALIDATOR_CONSTRAINTS",
+  "name": "systemMMnKK",
+  "values": [
+    {
+      "value": [
+        "smallercFromKValidator",
+        "smallerEqualsnFromKValidator"
+      ]
+    }
+  ]
 }

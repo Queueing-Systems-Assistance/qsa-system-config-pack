@@ -1,9 +1,13 @@
 {
-	"config": "INPUTS_REQUIRED",
-	"name": "systemMGamma1",
-	"values": [
-		{
-			"value": "Lambda,Alpha,Mu"
-		}
-	]
+  "config": "INPUTS_REQUIRED",
+  "name": "systemMGamma1",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "Alpha",
+        "Mu"
+      ]
+    }
+  ]
 }

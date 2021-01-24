@@ -1,9 +1,15 @@
 {
-	"config": "INPUTS_DEFAULT",
-	"name": "systemMMnn",
-	"values": [
-		{
-			"value": "Lambda,Mu,n,t,c"
-		}
-	]
+  "config": "INPUTS_DEFAULT",
+  "name": "systemMMnn",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "Mu",
+        "n",
+        "t",
+        "c"
+      ]
+    }
+  ]
 }

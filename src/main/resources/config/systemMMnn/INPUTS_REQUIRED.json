@@ -1,9 +1,13 @@
 {
-	"config": "INPUTS_REQUIRED",
-	"name": "systemMMnn",
-	"values": [
-		{
-			"value": "Mu,Lambda,c"
-		}
-	]
+  "config": "INPUTS_REQUIRED",
+  "name": "systemMMnn",
+  "values": [
+    {
+      "value": [
+        "Mu",
+        "Lambda",
+        "c"
+      ]
+    }
+  ]
 }

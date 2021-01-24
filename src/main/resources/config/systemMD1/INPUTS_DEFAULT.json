@@ -1,9 +1,14 @@
 {
-	"config": "INPUTS_DEFAULT",
-	"name": "systemMD1",
-	"values": [
-		{
-			"value": "Lambda,Ds,n,t"
-		}
-	]
+  "config": "INPUTS_DEFAULT",
+  "name": "systemMD1",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "Ds",
+        "n",
+        "t"
+      ]
+    }
+  ]
 }

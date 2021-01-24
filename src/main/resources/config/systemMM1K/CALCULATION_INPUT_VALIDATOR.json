@@ -1,28 +1,28 @@
 {
-	"config": "CALCULATION_INPUT_VALIDATOR",
-	"name": "systemMM1K",
-	"configCondition": [
-        "feature",
-        "output"
-	],
-	"values": [
-        {
-            "value": "smallerEqualsnFromKValidator",
-            "output": [
-                "Pn"
-            ],
-            "feature": [
-                "n"
-            ]
-        },
-        {
-            "value": "smallernFromKValidator",
-            "output": [
-                "Pin"
-            ],
-            "feature": [
-                "n"
-            ]
-        }
-	]
+  "config": "CALCULATION_INPUT_VALIDATOR",
+  "name": "systemMM1K",
+  "configCondition": [
+    "feature",
+    "output"
+  ],
+  "values": [
+    {
+      "value": "smallerEqualsnFromKValidator",
+      "output": [
+        "Pn"
+      ],
+      "feature": [
+        "n"
+      ]
+    },
+    {
+      "value": "smallernFromKValidator",
+      "output": [
+        "Pin"
+      ],
+      "feature": [
+        "n"
+      ]
+    }
+  ]
 }

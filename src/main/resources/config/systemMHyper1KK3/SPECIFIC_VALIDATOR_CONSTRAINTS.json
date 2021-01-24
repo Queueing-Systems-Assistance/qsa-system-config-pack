@@ -1,12 +1,14 @@
 {
-	"config": "SPECIFIC_VALIDATOR_CONSTRAINTS",
-	"name": "systemMHyper1KK3",
-	"configCondition": [
-		"feature"
-	],
-	"values": [
-		{
-			"value": "equalsp1p2p3To1Validator"
-		}
-	]
+  "config": "SPECIFIC_VALIDATOR_CONSTRAINTS",
+  "name": "systemMHyper1KK3",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "value": [
+        "equalsp1p2p3To1Validator"
+      ]
+    }
+  ]
 }

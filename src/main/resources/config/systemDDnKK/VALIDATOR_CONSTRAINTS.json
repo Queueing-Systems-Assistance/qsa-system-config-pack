@@ -1,24 +1,24 @@
 {
-	"config": "VALIDATOR_CONSTRAINTS",
-	"name": "systemDDnKK",
-	"configCondition": [
-		"feature"
-	],
-	"values": [
-		{
-			"feature": [
-				"n"
-			],
-			"value": "positiveOrZeroValidator"
-		},
-		{
-			"feature": [
-				"Da",
-				"Ds",
-				"c",
-				"K"
-			],
-			"value": "positiveValidator"
-		}
-	]
+  "config": "VALIDATOR_CONSTRAINTS",
+  "name": "systemDDnKK",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "feature": [
+        "n"
+      ],
+      "value": "positiveOrZeroValidator"
+    },
+    {
+      "feature": [
+        "Da",
+        "Ds",
+        "c",
+        "K"
+      ],
+      "value": "positiveValidator"
+    }
+  ]
 }

@@ -1,9 +1,15 @@
 {
-	"config": "INPUTS_DEFAULT",
-	"name": "systemMHypo1KK2",
-	"values": [
-		{
-			"value": "Lambda,Mu1,Mu2,K,n"
-		}
-	]
+  "config": "INPUTS_DEFAULT",
+  "name": "systemMHypo1KK2",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "Mu1",
+        "Mu2",
+        "K",
+        "n"
+      ]
+    }
+  ]
 }

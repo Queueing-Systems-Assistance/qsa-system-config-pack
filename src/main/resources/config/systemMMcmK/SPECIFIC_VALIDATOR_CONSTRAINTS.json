@@ -1,9 +1,12 @@
 {
-	"config": "SPECIFIC_VALIDATOR_CONSTRAINTS",
-	"name": "systemMMcmK",
-	"values": [
-		{
-			"value": "smallercFromKValidator,MBetweencAndKValidator"
-		}
-	]
+  "config": "SPECIFIC_VALIDATOR_CONSTRAINTS",
+  "name": "systemMMcmK",
+  "values": [
+    {
+      "value": [
+        "smallercFromKValidator",
+        "MBetweencAndKValidator"
+      ]
+    }
+  ]
 }

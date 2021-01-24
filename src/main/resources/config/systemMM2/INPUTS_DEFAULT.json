@@ -1,9 +1,15 @@
 {
-	"config": "INPUTS_DEFAULT",
-	"name": "systemMM2",
-	"values": [
-		{
-			"value": "Lambda,Mu,n,t,r"
-		}
-	]
+  "config": "INPUTS_DEFAULT",
+  "name": "systemMM2",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "Mu",
+        "n",
+        "t",
+        "r"
+      ]
+    }
+  ]
 }

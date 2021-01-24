@@ -1,9 +1,14 @@
 {
-	"config": "INPUTS_REQUIRED",
-	"name": "systemMMnPrior",
-	"values": [
-		{
-			"value": "Mu,Lambda1,Lambda2,c"
-		}
-	]
+  "config": "INPUTS_REQUIRED",
+  "name": "systemMMnPrior",
+  "values": [
+    {
+      "value": [
+        "Mu",
+        "Lambda1",
+        "Lambda2",
+        "c"
+      ]
+    }
+  ]
 }

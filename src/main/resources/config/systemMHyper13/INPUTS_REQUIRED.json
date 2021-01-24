@@ -1,9 +1,17 @@
 {
-	"config": "INPUTS_REQUIRED",
-	"name": "systemMHyper13",
-	"values": [
-		{
-			"value": "Lambda,Mu1,Mu2,Mu3,p1,p2,p3"
-		}
-	]
+  "config": "INPUTS_REQUIRED",
+  "name": "systemMHyper13",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "Mu1",
+        "Mu2",
+        "Mu3",
+        "p1",
+        "p2",
+        "p3"
+      ]
+    }
+  ]
 }

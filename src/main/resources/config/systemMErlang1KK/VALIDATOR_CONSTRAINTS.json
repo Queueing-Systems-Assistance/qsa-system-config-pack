@@ -1,24 +1,24 @@
 {
-	"config": "VALIDATOR_CONSTRAINTS",
-	"name": "systemMErlang1KK",
-	"configCondition": [
-		"feature"
-	],
-	"values": [
-		{
-			"feature": [
-				"Lambda",
-				"nErlang",
-				"Mu",
-                "K"
-			],
-			"value": "positiveValidator"
-		},
-        {
-			"feature": [
-				"n"
-			],
-			"value": "positiveOrZeroValidator"
-		}
-	]
+  "config": "VALIDATOR_CONSTRAINTS",
+  "name": "systemMErlang1KK",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "feature": [
+        "Lambda",
+        "nErlang",
+        "Mu",
+        "K"
+      ],
+      "value": "positiveValidator"
+    },
+    {
+        "feature": [
+            "n"
+        ],
+        "value": "positiveOrZeroValidator"
+    }
+  ]
 }
