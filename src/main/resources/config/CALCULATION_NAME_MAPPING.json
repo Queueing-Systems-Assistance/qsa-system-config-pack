@@ -1,0 +1,19 @@
+{
+  "config": "CALCULATION_NAME_MAPPING",
+  "values": [
+    {
+      "value": {
+        "US": "U_S",
+        "WAvg": "\\bar{W}",
+        "Ro": "\\rho",
+        "P0": "P_0",
+        "PK": "P_K",
+        "Pn": "P_n",
+        "NAvg": "\\bar{N}",
+        "Mu": "\\mu",
+        "Lambda": "\\lambda",
+        "TAvg": "\\bar{T}"
+      }
+    }
+  ]
+}
