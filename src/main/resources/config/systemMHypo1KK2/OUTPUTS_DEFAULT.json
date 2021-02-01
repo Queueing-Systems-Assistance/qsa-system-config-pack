@@ -21,7 +21,8 @@
         "QAvg",
         "EQ2",
         "D2Q",
-        "EDelta1"
+        "EDelta1",
+        "KStar"
       ]
     }
   ]
