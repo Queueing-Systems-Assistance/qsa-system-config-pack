@@ -1,0 +1,15 @@
+{
+    "config": "CALCULATION_INPUT_VALIDATOR",
+    "name": "systemMErlang1KK",
+    "configCondition": [
+      "output"
+    ],
+    "values": [
+      {
+        "value": "smallerEqualsnFromKValidator",
+        "output": [
+            "Pn"
+        ]
+      }
+    ]
+  }

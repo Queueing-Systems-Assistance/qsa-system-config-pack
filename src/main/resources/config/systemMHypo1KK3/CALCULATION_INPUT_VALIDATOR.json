@@ -1,0 +1,15 @@
+{
+    "config": "CALCULATION_INPUT_VALIDATOR",
+    "name": "systemMHypo1KK3",
+    "configCondition": [
+      "output"
+    ],
+    "values": [
+      {
+        "value": "smallerEqualsnFromKValidator",
+        "output": [
+            "Pn"
+        ]
+      }
+    ]
+  }
