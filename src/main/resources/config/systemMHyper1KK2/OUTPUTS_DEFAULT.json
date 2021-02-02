@@ -7,15 +7,22 @@
         "E0",
         "SAvg",
         "P0",
+        "Pn",
+        "Pin",
         "a",
         "Ut",
         "mAvg",
         "LambdaAvg",
         "TAvg",
         "NAvg",
+        "EN2",
+        "D2N",
         "WAvg",
         "QAvg",
-        "EDelta1"
+        "EQ2",
+        "D2Q",
+        "EDelta1",
+        "KStar"
       ]
     }
   ]

@@ -13,6 +13,12 @@
         "K"
       ],
       "value": "positiveValidator"
+    },
+    {
+        "feature": [
+            "n"
+        ],
+        "value": "positiveOrZeroValidator"
     }
   ]
 }
