@@ -1,0 +1,15 @@
+{
+  "config": "SPECIFIC_VALIDATOR_CONSTRAINTS",
+  "name": "systemMG1nonPreemp",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "value": [
+        "smallerLambda1eSc1From1Validator",
+        "smallerLambda2eSc2From1Validator"
+      ]
+    }
+  ]
+}
