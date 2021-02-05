@@ -1,0 +1,22 @@
+{
+  "config": "VALIDATOR_CONSTRAINTS",
+  "name": "systemMG1nonPrior",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "feature": [
+        "Lambda1",
+        "eSc1",
+        "eSPow2c1",
+        "eSPow3c1",
+        "Lambda2",
+        "eSc2",
+        "eSPow2c2",
+        "eSPow3c2"
+      ],
+      "value": "positiveValidator"
+    }
+  ]
+}
