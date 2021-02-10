@@ -1,0 +1,25 @@
+{
+  "config": "CALCULATION_INPUT_VALIDATOR",
+  "name": "systemMG1nonPrior",
+  "configCondition": [
+    "feature",
+    "output"
+  ],
+  "values": [
+    {
+      "value": "positiveValidator",
+      "feature": [
+        "Lambda3",
+        "eSc3",
+        "eSPow2c3",
+        "eSPow3c3"
+      ],
+      "output": [
+        "D2S3",
+        "TAvg3",
+        "ET2c3",
+        "D2T3"
+      ]
+    }
+  ]
+}

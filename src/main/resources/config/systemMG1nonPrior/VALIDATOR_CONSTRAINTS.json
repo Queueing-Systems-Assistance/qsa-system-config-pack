@@ -17,6 +17,15 @@
         "eSPow3c2"
       ],
       "value": "positiveValidator"
+    },
+    {
+      "feature": [
+        "Lambda3",
+        "eSc3",
+        "eSPow2c3",
+        "eSPow3c3"
+      ],
+      "value": "positiveOrZeroValidator"
     }
   ]
 }
