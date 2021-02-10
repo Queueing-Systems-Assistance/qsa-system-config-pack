@@ -11,7 +11,11 @@
         "Lambda2",
         "eSc2",
         "eSPow2c2",
-        "eSPow3c2"
+        "eSPow3c2",
+        "Lambda3",
+        "eSc3",
+        "eSPow2c3",
+        "eSPow3c3"
       ]
     }
   ]

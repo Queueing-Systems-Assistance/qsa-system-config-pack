@@ -7,7 +7,8 @@
   "values": [
     {
       "value": [
-        "smallerLambdaEsMG1Validator"
+        "smallerLambdaEsMG1Validator",
+        "MG1PriorThirdClassValidator"
       ]
     }
   ]

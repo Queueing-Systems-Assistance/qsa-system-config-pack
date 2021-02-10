@@ -10,6 +10,7 @@
         "eSPow3",
         "D2S1",
         "D2S2",
+        "D2S3",
         "Ro",
         "WAvg",
         "EW2",
@@ -17,12 +18,15 @@
         "QAvg",
         "TAvg1",
         "TAvg2",
+        "TAvg3",
         "TAvg",
         "ET2c1",
         "ET2c2",
+        "ET2c3",
         "ET2",
         "D2T1",
         "D2T2",
+        "D2T3",
         "D2T",
         "NAvg"
       ]
