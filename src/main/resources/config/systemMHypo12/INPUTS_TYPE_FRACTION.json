@@ -1,0 +1,13 @@
+{
+  "config": "INPUTS_TYPE_FRACTION",
+  "name": "systemMHypo12",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "Mu1",
+        "Mu2"
+      ]
+    }
+  ]
+}

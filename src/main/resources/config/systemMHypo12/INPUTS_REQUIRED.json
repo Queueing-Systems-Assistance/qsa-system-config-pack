@@ -1,0 +1,13 @@
+{
+  "config": "INPUTS_REQUIRED",
+  "name": "systemMHypo12",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "Mu1",
+        "Mu2"
+      ]
+    }
+  ]
+}
