@@ -1,0 +1,12 @@
+{
+  "config": "INPUTS_TYPE_FRACTION",
+  "name": "systemMMcKBalking",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "Mu"
+      ]
+    }
+  ]
+}

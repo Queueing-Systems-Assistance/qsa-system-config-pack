@@ -1,0 +1,28 @@
+{
+  "config": "OUTPUTS_DEFAULT",
+  "name": "systemMMcKReneging",
+  "values": [
+    {
+      "value": [
+        "rn",  
+        "LambdaN",
+        "LambdaAvg",
+        "Mun",
+        "MuAvg",
+        "P0",
+        "Pn",
+        "Pin",
+        "PW",
+        "PB",
+        "PJ",
+        "PR",
+        "US",
+        "NAvg",
+        "QAvg",
+        "cAvg",
+        "rAvg",
+        "EDeltar"
+      ]
+    }
+  ]
+}
