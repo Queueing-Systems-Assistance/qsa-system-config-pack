@@ -1,0 +1,26 @@
+{
+  "config": "OUTPUTS_DEFAULT",
+  "name": "systemMMcmKBalkingReneging",
+  "values": [
+    {
+      "value": [
+        "bn",
+        "rn",
+        "bN",
+        "Pn",
+        "P0",
+        "US",
+        "NAvg",
+        "SAvg",
+        "D2N",
+        "QAvg",
+        "D2Q",
+        "D2W",
+        "D2T",
+        "TAvg",
+        "LambdaAvg",
+        "WAvg"
+      ]
+    }
+  ]
+}

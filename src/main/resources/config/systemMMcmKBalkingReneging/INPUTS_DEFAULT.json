@@ -1,0 +1,17 @@
+{
+  "config": "INPUTS_DEFAULT",
+  "name": "systemMMcmKBalkingReneging",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "Mu",
+        "c",
+        "m",
+        "K",
+        "Theta",
+        "n"
+      ]
+    }
+  ]
+}
