@@ -1,0 +1,26 @@
+{
+  "config": "OUTPUTS_DEFAULT",
+  "name": "systemMMcKBalking",
+  "values": [
+    {
+      "value": [
+        "bn",  
+        "LambdaN",
+        "LambdaAvg",
+        "Mun",
+        "MuAvg",
+        "P0",
+        "Pn",
+        "Pin",
+        "PW",
+        "PB",
+        "PJ",
+        "US",
+        "NAvg",
+        "QAvg",
+        "cAvg",
+        "EDeltar"
+      ]
+    }
+  ]
+}

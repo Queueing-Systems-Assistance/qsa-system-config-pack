@@ -1,0 +1,16 @@
+{
+  "config": "INPUTS_DEFAULT",
+  "name": "systemMMcKReneging",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "Mu",
+        "c",
+        "K",
+        "Theta",
+        "n"
+      ]
+    }
+  ]
+}

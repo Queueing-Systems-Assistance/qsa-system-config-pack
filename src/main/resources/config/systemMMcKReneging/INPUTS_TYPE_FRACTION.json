@@ -1,0 +1,13 @@
+{
+  "config": "INPUTS_TYPE_FRACTION",
+  "name": "systemMMcKReneging",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "Mu",
+        "Theta"
+      ]
+    }
+  ]
+}

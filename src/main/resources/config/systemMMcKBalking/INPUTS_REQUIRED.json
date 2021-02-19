@@ -1,0 +1,14 @@
+{
+  "config": "INPUTS_REQUIRED",
+  "name": "systemMMcKBalking",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "Mu",
+        "c",
+        "K"
+      ]
+    }
+  ]
+}
