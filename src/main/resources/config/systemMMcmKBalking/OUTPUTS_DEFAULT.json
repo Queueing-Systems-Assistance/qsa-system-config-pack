@@ -1,11 +1,10 @@
 {
   "config": "OUTPUTS_DEFAULT",
-  "name": "systemMMcmKBalkingReneging",
+  "name": "systemMMcmKBalking",
   "values": [
     {
       "value": [
         "bn",
-        "rn",
         "LambdaN",
         "LambdaAvg",
         "Mun",
@@ -16,12 +15,10 @@
         "PW",
         "PB",
         "PJ",
-        "PR",
         "US",
         "NAvg",
         "QAvg",
         "cAvg",
-        "rAvg",
         "EDeltar"
       ]
     }

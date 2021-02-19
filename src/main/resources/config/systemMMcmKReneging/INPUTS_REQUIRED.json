@@ -1,0 +1,16 @@
+{
+  "config": "INPUTS_REQUIRED",
+  "name": "systemMMcmKReneging",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "Mu",
+        "c",
+        "m",
+        "K",
+        "Theta"
+      ]
+    }
+  ]
+}

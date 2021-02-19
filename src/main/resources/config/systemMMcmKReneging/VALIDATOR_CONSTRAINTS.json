@@ -1,0 +1,26 @@
+{
+  "config": "VALIDATOR_CONSTRAINTS",
+  "name": "systemMMcmKReneging",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "feature": [
+        "n"
+      ],
+      "value": "positiveOrZeroValidator"
+    },
+    {
+      "feature": [
+        "Lambda",
+        "Mu",
+        "c",
+        "m",
+        "K",
+        "Theta"
+      ],
+      "value": "positiveValidator"
+    }
+  ]
+}

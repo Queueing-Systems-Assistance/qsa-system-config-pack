@@ -1,10 +1,9 @@
 {
   "config": "OUTPUTS_DEFAULT",
-  "name": "systemMMcmKBalkingReneging",
+  "name": "systemMMcmKReneging",
   "values": [
     {
       "value": [
-        "bn",
         "rn",
         "LambdaN",
         "LambdaAvg",
