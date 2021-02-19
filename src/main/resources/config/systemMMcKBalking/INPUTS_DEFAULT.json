@@ -1,0 +1,15 @@
+{
+  "config": "INPUTS_DEFAULT",
+  "name": "systemMMcKBalking",
+  "values": [
+    {
+      "value": [
+        "Lambda",
+        "Mu",
+        "c",
+        "K",
+        "n"
+      ]
+    }
+  ]
+}
