@@ -5,7 +5,7 @@
     {
       "value": [
         "bn",
-        "rn",
+        "rn",  
         "LambdaN",
         "LambdaAvg",
         "Mun",
@@ -18,9 +18,18 @@
         "PJ",
         "PR",
         "US",
+        "a",
+        "Ut",
         "NAvg",
+        "EN2",
+        "D2N",
         "QAvg",
+        "EQ2",
+        "D2Q",
+        "WAvg",
+        "TAvg",
         "cAvg",
+        "mAvg",
         "rAvg",
         "EDeltar"
       ]
