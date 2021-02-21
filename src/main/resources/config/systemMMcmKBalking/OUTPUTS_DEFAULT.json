@@ -1,10 +1,10 @@
 {
   "config": "OUTPUTS_DEFAULT",
-  "name": "systemMMcKReneging",
+  "name": "systemMMcmKBalking",
   "values": [
     {
       "value": [
-        "rn",  
+        "bn",  
         "LambdaN",
         "LambdaAvg",
         "Mun",
@@ -15,9 +15,9 @@
         "PW",
         "PB",
         "PJ",
-        "PR",
         "US",
         "a",
+        "Ut",
         "NAvg",
         "EN2",
         "D2N",
@@ -27,7 +27,7 @@
         "WAvg",
         "TAvg",
         "cAvg",
-        "rAvg",
+        "mAvg",
         "EDeltar"
       ]
     }

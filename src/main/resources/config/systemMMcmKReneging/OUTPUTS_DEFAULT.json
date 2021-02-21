@@ -1,6 +1,6 @@
 {
   "config": "OUTPUTS_DEFAULT",
-  "name": "systemMMcKReneging",
+  "name": "systemMMcmKReneging",
   "values": [
     {
       "value": [
@@ -18,6 +18,7 @@
         "PR",
         "US",
         "a",
+        "Ut",
         "NAvg",
         "EN2",
         "D2N",
@@ -27,6 +28,7 @@
         "WAvg",
         "TAvg",
         "cAvg",
+        "mAvg",
         "rAvg",
         "EDeltar"
       ]
