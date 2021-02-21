@@ -14,10 +14,10 @@
     },
     {
       "feature": [
-        "Lambda",
+        "LambdaFin",
         "Mu",
         "c",
-        "K"
+        "KFin"
       ],
       "value": "positiveValidator"
     }

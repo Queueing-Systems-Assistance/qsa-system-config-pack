@@ -7,9 +7,9 @@
   "values": [
     {
       "feature": [
-        "Lambda",
+        "LambdaFin",
         "Ds",
-        "K"
+        "KFin"
       ],
       "value": "positiveValidator"
     },

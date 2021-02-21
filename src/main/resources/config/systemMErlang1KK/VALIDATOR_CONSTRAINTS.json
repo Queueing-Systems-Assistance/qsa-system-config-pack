@@ -7,10 +7,10 @@
   "values": [
     {
       "feature": [
-        "Lambda",
+        "LambdaFin",
         "nErlang",
         "Mu",
-        "K"
+        "KFin"
       ],
       "value": "positiveValidator"
     },
