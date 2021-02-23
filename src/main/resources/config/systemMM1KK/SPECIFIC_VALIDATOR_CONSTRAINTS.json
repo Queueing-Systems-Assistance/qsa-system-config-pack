@@ -4,8 +4,8 @@
   "values": [
     {
       "value": [
-        "smallerEqualsnFromKValidator",
-        "biggerKMin1From1"
+        "smallerEqualsnFromKFinValidator",
+        "biggerKFinMin1From1"
       ]
     }
   ]

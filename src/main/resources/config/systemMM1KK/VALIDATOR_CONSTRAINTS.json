@@ -14,9 +14,9 @@
     },
     {
       "feature": [
-        "Lambda",
+        "LambdaFin",
         "Mu",
-        "K"
+        "KFin"
       ],
       "value": "positiveValidator"
     }

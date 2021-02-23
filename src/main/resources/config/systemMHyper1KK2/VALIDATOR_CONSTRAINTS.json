@@ -7,12 +7,12 @@
   "values": [
     {
       "feature": [
-        "Lambda",
+        "LambdaFin",
         "Mu1",
         "Mu2",
         "p1",
         "p2",
-        "K"
+        "KFin"
       ],
       "value": "positiveValidator"
     },
