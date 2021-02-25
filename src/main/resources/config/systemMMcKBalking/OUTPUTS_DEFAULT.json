@@ -24,7 +24,11 @@
         "EQ2",
         "D2Q",
         "WAvg",
+        "EW2",
+        "D2W",
+        "FWt",
         "TAvg",
+        "D2T",
         "cAvg",
         "EDeltar"
       ]
