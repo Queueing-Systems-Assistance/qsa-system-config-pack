@@ -1,0 +1,23 @@
+{
+  "config": "INPUT_GROUPS",
+  "name": "systemMMcmKReneging",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "value": "INPUT_GROUP_REQUIRED",
+      "feature": [
+        "LambdaFin",
+        "Mu",
+        "c",
+        "m",
+        "KFin",
+        "Theta"
+      ]
+    },
+    {
+      "value": "INPUT_GROUP_OPTIONAL"
+    }
+  ]
+}

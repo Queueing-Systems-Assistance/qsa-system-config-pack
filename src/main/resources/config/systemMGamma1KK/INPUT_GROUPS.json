@@ -1,0 +1,21 @@
+{
+  "config": "INPUT_GROUPS",
+  "name": "systemMGamma1KK",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "value": "INPUT_GROUP_REQUIRED",
+      "feature": [
+        "LambdaFin",
+        "Alpha",
+        "Mu",
+        "KFin"
+      ]
+    },
+    {
+      "value": "INPUT_GROUP_OPTIONAL"
+    }
+  ]
+}

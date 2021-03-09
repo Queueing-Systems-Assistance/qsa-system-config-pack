@@ -1,0 +1,21 @@
+{
+  "config": "INPUT_GROUPS",
+  "name": "systemMMnnK",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "value": "INPUT_GROUP_REQUIRED",
+      "feature": [
+        "LambdaFin",
+        "Mu",
+        "c",
+        "KFin"
+      ]
+    },
+    {
+      "value": "INPUT_GROUP_OPTIONAL"
+    }
+  ]
+}

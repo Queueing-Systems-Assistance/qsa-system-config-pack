@@ -1,0 +1,24 @@
+{
+  "config": "INPUT_GROUPS",
+  "name": "systemMHyper13",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "value": "INPUT_GROUP_REQUIRED",
+      "feature": [
+        "Lambda",
+        "Mu1",
+        "Mu2",
+        "Mu3",
+        "p1",
+        "p2",
+        "p3"
+      ]
+    },
+    {
+      "value": "INPUT_GROUP_OPTIONAL"
+    }
+  ]
+}

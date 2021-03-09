@@ -1,0 +1,20 @@
+{
+  "config": "INPUT_GROUPS",
+  "name": "systemMGamma1",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "value": "INPUT_GROUP_REQUIRED",
+      "feature": [
+        "Lambda",
+        "Alpha",
+        "Mu"
+      ]
+    },
+    {
+      "value": "INPUT_GROUP_OPTIONAL"
+    }
+  ]
+}

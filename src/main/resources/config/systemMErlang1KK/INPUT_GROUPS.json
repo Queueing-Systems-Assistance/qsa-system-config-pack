@@ -1,0 +1,21 @@
+{
+  "config": "INPUT_GROUPS",
+  "name": "systemMErlang1KK",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "value": "INPUT_GROUP_REQUIRED",
+      "feature": [
+        "LambdaFin",
+        "nErlang",
+        "Mu",
+        "KFin"
+      ]
+    },
+    {
+      "value": "INPUT_GROUP_OPTIONAL"
+    }
+  ]
+}

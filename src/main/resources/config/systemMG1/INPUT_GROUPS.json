@@ -1,0 +1,21 @@
+{
+  "config": "INPUT_GROUPS",
+  "name": "systemMG1",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "value": "INPUT_GROUP_REQUIRED",
+      "feature": [
+        "Lambda",
+        "eS",
+        "eSPow2",
+        "eSPow3"
+      ]
+    },
+    {
+      "value": "INPUT_GROUP_OPTIONAL"
+    }
+  ]
+}

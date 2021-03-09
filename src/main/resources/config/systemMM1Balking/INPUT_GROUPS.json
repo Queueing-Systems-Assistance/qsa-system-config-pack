@@ -1,0 +1,19 @@
+{
+  "config": "INPUT_GROUPS",
+  "name": "systemMM1Balking",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "value": "INPUT_GROUP_REQUIRED",
+      "feature": [
+        "Lambda",
+        "Mu"
+      ]
+    },
+    {
+      "value": "INPUT_GROUP_OPTIONAL"
+    }
+  ]
+}
