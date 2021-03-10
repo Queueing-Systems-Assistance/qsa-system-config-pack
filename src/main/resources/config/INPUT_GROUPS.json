@@ -1,0 +1,8 @@
+{
+  "config": "INPUT_GROUPS",
+  "values": [
+    {
+      "value": "INPUT_GROUP_OPTIONAL"
+    }
+  ]
+}
