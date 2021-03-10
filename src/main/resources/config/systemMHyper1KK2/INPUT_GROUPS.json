@@ -1,0 +1,20 @@
+{
+  "config": "INPUT_GROUPS",
+  "name": "systemMHyper1KK2",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "value": "INPUT_GROUP_REQUIRED",
+      "feature": [
+        "LambdaFin",
+        "Mu1",
+        "Mu2",
+        "p1",
+        "p2",
+        "KFin"
+      ]
+    }
+  ]
+}

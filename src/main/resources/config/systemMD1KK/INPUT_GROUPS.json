@@ -1,0 +1,17 @@
+{
+  "config": "INPUT_GROUPS",
+  "name": "systemMD1KK",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "value": "INPUT_GROUP_REQUIRED",
+      "feature": [
+        "LambdaFin",
+        "Ds",
+        "KFin"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "config": "INPUT_GROUPS",
+  "name": "systemMHypo1KK2",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "value": "INPUT_GROUP_REQUIRED",
+      "feature": [
+        "LambdaFin",
+        "Mu1",
+        "Mu2",
+        "KFin"
+      ]
+    }
+  ]
+}

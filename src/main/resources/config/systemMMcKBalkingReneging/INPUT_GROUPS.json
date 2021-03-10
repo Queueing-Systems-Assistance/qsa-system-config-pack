@@ -1,0 +1,19 @@
+{
+  "config": "INPUT_GROUPS",
+  "name": "systemMMcKBalkingReneging",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "value": "INPUT_GROUP_REQUIRED",
+      "feature": [
+        "Lambda",
+        "Mu",
+        "c",
+        "K",
+        "Theta"
+      ]
+    }
+  ]
+}

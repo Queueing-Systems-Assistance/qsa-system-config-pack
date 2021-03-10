@@ -1,0 +1,17 @@
+{
+  "config": "INPUT_GROUPS",
+  "name": "systemMM1Preemp",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "value": "INPUT_GROUP_REQUIRED",
+      "feature": [
+        "Lambda1",
+        "Lambda2",
+        "Mu"
+      ]
+    }
+  ]
+}

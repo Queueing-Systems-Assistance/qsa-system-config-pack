@@ -1,0 +1,19 @@
+{
+  "config": "INPUT_GROUPS",
+  "name": "systemMMcmKBalking",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "value": "INPUT_GROUP_REQUIRED",
+      "feature": [
+        "LambdaFin",
+        "Mu",
+        "c",
+        "m",
+        "KFin"
+      ]
+    }
+  ]
+}

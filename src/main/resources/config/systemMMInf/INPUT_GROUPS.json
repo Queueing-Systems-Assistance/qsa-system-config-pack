@@ -1,0 +1,16 @@
+{
+  "config": "INPUT_GROUPS",
+  "name": "systemMMInf",
+  "configCondition": [
+    "feature"
+  ],
+  "values": [
+    {
+      "value": "INPUT_GROUP_REQUIRED",
+      "feature": [
+        "Mu",
+        "Lambda"
+      ]
+    }
+  ]
+}
