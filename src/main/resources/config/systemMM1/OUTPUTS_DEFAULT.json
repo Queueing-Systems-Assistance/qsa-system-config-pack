@@ -36,7 +36,8 @@
         "D2NdDelta",
         "PNdDeltan",
         "EDelta1",
-        "VarDelta"
+        "VarDelta",
+        "ECost"
       ]
     }
   ]
