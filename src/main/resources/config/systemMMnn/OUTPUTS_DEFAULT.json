@@ -19,7 +19,8 @@
         "FTt",
         "TAvg",
         "eAvg",
-        "EDeltar"
+        "EDeltar",
+        "ECost"
       ]
     }
   ]

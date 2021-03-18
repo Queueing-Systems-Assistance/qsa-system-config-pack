@@ -4,7 +4,7 @@
   "values": [
     {
       "value": [
-        "rn",  
+        "rn",
         "LambdaN",
         "LambdaAvg",
         "Mun",
@@ -30,7 +30,8 @@
         "cAvg",
         "mAvg",
         "rAvg",
-        "EDeltar"
+        "EDeltar",
+        "ECost"
       ]
     }
   ]

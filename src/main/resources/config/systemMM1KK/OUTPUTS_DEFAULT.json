@@ -28,7 +28,8 @@
         "TAvg",
         "D2T",
         "FTt",
-        "EDelta1"
+        "EDelta1",
+        "ECost"
       ]
     }
   ]

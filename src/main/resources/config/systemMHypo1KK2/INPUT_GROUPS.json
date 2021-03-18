@@ -13,6 +13,16 @@
         "Mu2",
         "KFin"
       ]
+    },
+    {
+      "value": "INPUT_GROUP_COST",
+      "feature": [
+        "CS",
+        "CWS",
+        "CI",
+        "CSR",
+        "R"
+      ]
     }
   ]
 }

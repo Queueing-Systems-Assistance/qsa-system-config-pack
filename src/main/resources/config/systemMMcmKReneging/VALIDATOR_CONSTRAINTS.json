@@ -7,7 +7,13 @@
   "values": [
     {
       "feature": [
-        "n"
+        "n",
+        "CS",
+        "CWS",
+        "CI",
+        "CSR",
+        "CLC",
+        "R"
       ],
       "value": "positiveOrZeroValidator"
     },

@@ -12,6 +12,16 @@
         "Mu1",
         "Mu2"
       ]
+    },
+    {
+      "value": "INPUT_GROUP_COST",
+      "feature": [
+        "CS",
+        "CWS",
+        "CI",
+        "CSR",
+        "R"
+      ]
     }
   ]
 }

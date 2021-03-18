@@ -5,6 +5,7 @@
     {
       "value": [
         "Ro",
+        "cAvg",
         "Lambda",
         "a",
         "P0",
@@ -39,7 +40,8 @@
         "D2T",
         "PiT90",
         "PiT95",
-        "EDeltar"
+        "EDeltar",
+        "ECost"
       ]
     }
   ]

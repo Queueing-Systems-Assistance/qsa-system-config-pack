@@ -5,6 +5,7 @@
     {
       "value": [
         "Ro",
+        "P0",
         "Pn",
         "PN1",
         "SAvg",
@@ -28,7 +29,8 @@
         "EDelta1",
         "VarDelta",
         "PiT90Appr",
-        "PiT95Appr"
+        "PiT95Appr",
+        "ECost"
       ]
     }
   ]
