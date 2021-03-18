@@ -15,6 +15,17 @@
         "KFin",
         "Theta"
       ]
+    },
+    {
+      "value": "INPUT_GROUP_COST",
+      "feature": [
+        "CS",
+        "CWS",
+        "CI",
+        "CSR",
+        "CLC",
+        "R"
+      ]
     }
   ]
 }

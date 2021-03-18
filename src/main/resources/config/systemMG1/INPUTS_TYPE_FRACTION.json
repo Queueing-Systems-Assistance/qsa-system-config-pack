@@ -7,7 +7,12 @@
         "Lambda",
         "eS",
         "eSPow2",
-        "eSPow3"
+        "eSPow3",
+        "CS",
+        "CWS",
+        "CI",
+        "CSR",
+        "R"
       ]
     }
   ]

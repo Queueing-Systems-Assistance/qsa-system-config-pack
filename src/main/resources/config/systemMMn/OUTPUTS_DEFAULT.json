@@ -30,9 +30,11 @@
         "FTt",
         "PiT90",
         "PiT95",
+        "cAvg",
         "eAvg",
         "EDelta",
-        "EDeltar"
+        "EDeltar",
+        "ECost"
       ]
     }
   ]

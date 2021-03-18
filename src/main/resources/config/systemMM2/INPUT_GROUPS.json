@@ -11,6 +11,16 @@
         "Mu",
         "Lambda"
       ]
+    },
+    {
+      "value": "INPUT_GROUP_COST",
+      "feature": [
+        "CS",
+        "CWS",
+        "CI",
+        "CSR",
+        "R"
+      ]
     }
   ]
 }

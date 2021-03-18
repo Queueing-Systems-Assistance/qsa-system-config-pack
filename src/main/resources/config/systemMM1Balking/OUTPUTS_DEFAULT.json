@@ -20,7 +20,8 @@
         "D2T",
         "TAvg",
         "LambdaAvg",
-        "WAvg"
+        "WAvg",
+        "ECost"
       ]
     }
   ]

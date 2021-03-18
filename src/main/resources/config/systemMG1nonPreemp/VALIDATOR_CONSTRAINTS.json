@@ -23,7 +23,12 @@
         "Lambda3",
         "eSc3",
         "eSPow2c3",
-        "eSPow3c3"
+        "eSPow3c3",
+        "CS",
+        "CWS",
+        "CI",
+        "CSR",
+        "R"
       ],
       "value": "positiveOrZeroValidator"
     }

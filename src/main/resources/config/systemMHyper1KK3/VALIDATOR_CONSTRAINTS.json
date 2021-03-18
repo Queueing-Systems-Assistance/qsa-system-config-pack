@@ -19,10 +19,15 @@
       "value": "positiveValidator"
     },
     {
-        "feature": [
-            "n"
-        ],
-        "value": "positiveOrZeroValidator"
+      "feature": [
+        "n",
+        "CS",
+        "CWS",
+        "CI",
+        "CSR",
+        "R"
+      ],
+      "value": "positiveOrZeroValidator"
     }
   ]
 }

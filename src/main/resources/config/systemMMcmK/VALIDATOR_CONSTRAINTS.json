@@ -8,7 +8,13 @@
     {
       "feature": [
         "n",
-        "t"
+        "t",
+        "CS",
+        "CWS",
+        "CI",
+        "CSR",
+        "CLC",
+        "R"
       ],
       "value": "positiveOrZeroValidator"
     },

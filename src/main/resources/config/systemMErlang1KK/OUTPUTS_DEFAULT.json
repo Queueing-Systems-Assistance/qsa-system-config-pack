@@ -22,7 +22,8 @@
         "EQ2",
         "D2Q",
         "EDelta1",
-        "KStar"
+        "KStar",
+        "ECost"
       ]
     }
   ]

@@ -15,6 +15,7 @@
         "Ro2",
         "Ro3",
         "Ro",
+        "P0",
         "WAvg1",
         "WAvg2",
         "WAvg3",
@@ -42,7 +43,8 @@
         "NAvg1",
         "NAvg2",
         "NAvg3",
-        "NAvg"
+        "NAvg",
+        "ECost"
       ]
     }
   ]

@@ -10,7 +10,12 @@
         "Lambda3",
         "n",
         "t",
-        "r"
+        "r",
+        "CS",
+        "CWS",
+        "CI",
+        "CSR",
+        "R"
       ],
       "value": "positiveOrZeroValidator"
     },

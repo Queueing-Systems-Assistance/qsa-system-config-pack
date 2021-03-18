@@ -12,6 +12,16 @@
         "Mu2"
       ],
       "value": "positiveValidator"
+    },
+    {
+      "feature": [
+        "CS",
+        "CWS",
+        "CI",
+        "CSR",
+        "R"
+      ],
+      "value": "positiveOrZeroValidator"
     }
   ]
 }

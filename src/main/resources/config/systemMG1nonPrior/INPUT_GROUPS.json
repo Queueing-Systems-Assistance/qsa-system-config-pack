@@ -17,6 +17,16 @@
         "eSPow2c2",
         "eSPow3c2"
       ]
+    },
+    {
+      "value": "INPUT_GROUP_COST",
+      "feature": [
+        "CS",
+        "CWS",
+        "CI",
+        "CSR",
+        "R"
+      ]
     }
   ]
 }

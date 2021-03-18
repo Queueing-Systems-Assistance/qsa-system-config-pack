@@ -5,7 +5,12 @@
     {
       "value": [
         "Lambda",
-        "Ds"
+        "Ds",
+        "CS",
+        "CWS",
+        "CI",
+        "CSR",
+        "R"
       ]
     }
   ]

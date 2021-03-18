@@ -9,7 +9,12 @@
       "feature": [
         "r",
         "t",
-        "n"
+        "n",
+        "CS",
+        "CWS",
+        "CI",
+        "CSR",
+        "R"
       ],
       "value": "positiveOrZeroValidator"
     },
