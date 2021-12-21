@@ -1,84 +1,80 @@
 ext {
-	/* Project Information */
-	projectGroup = 'com.unideb.qsa'
-	projectVersion = project.getProperties().get('release.version') ?: 'RELEASE.VERSION.UNKNOWN'
-	/* Secrets */
-	// Note: Use your username and token
-	githubToken = System.getenv('GITHUB_TOKEN') ?: 'YOUR_TOKEN'
-	githubUsername = System.getenv('GITHUB_USERNAME') ?: 'YOUR_USERNAME'
-	print('Release version [' + projectVersion + ']')
+  /* Project Information */
+  projectGroup = 'com.unideb.qsa'
+  projectVersion = project.getProperties().get('release.version') ?: 'RELEASE.VERSION.UNKNOWN'
+  javaMainClass = 'com.unideb.qsa.config.pack.AssemblerApplication'
+  /* Secrets */
+  // Note: Use your username and token
+  githubToken = System.getenv('GITHUB_TOKEN') ?: 'YOUR_TOKEN'
+  githubUsername = System.getenv('GITHUB_USERNAME') ?: 'YOUR_USERNAME'
+  print('Release version [' + projectVersion + ']')
 }
 
 group = projectGroup
 version = projectVersion
 
-apply plugin: 'maven'
+apply plugin: 'maven-publish'
 apply plugin: 'checkstyle'
 apply plugin: 'java'
 apply plugin: 'java-library'
+apply plugin: 'application'
 
 repositories {
-	mavenLocal()
-	mavenCentral()
-	jcenter()
-	maven {
-		url 'https://jitpack.io'
-	}
-	maven {
-		url 'https://maven.pkg.github.com/queueing-systems-assistance/qsa'
-		credentials {
-			username = githubUsername
-			password = githubToken
-		}
-	}
+  mavenLocal()
+  mavenCentral()
+  maven {
+    url 'https://jitpack.io'
+  }
+  maven {
+    url 'https://maven.pkg.github.com/queueing-systems-assistance/qsa'
+    credentials {
+      username = githubUsername
+      password = githubToken
+    }
+  }
 }
 
 dependencies {
-	implementation 'com.github.everit-org.json-schema:org.everit.json.schema:1.11.0'
-	implementation 'ch.qos.logback:logback-classic:1.2.3'
-	implementation 'ch.qos.logback:logback-core:1.2.3'
-	implementation 'ch.qos.logback.contrib:logback-jackson:0.1.5'
-	implementation 'ch.qos.logback.contrib:logback-json-classic:0.1.5'
-	implementation 'net.logstash.logback:logstash-logback-encoder:6.0'
-	implementation 'org.slf4j:jcl-over-slf4j:1.7.26'
-	implementation 'org.slf4j:slf4j-api:1.7.26'
-	implementation 'ch.qos.logback:logback-classic:1.2.3'
-	implementation 'com.google.code.gson:gson:2.8.6'
-	implementation 'com.google.guava:guava:14.0.1'
-	implementation 'commons-io:commons-io:2.6'
-	implementation 'org.apache.commons:commons-text:1.9'
-	implementation 'org.springframework:spring-core:5.2.3.RELEASE'
-	implementation 'org.springframework:spring-context:5.1.9.RELEASE'
-	implementation 'org.springframework:spring-instrument:5.1.9.RELEASE'
-	implementation 'org.springframework:spring-tx:5.1.9.RELEASE'
-	testImplementation 'com.unideb.qsa:qsa-config-domain:1.0.11'
-	testImplementation 'org.testng:testng:7.3.0'
+  implementation 'com.github.everit-org.json-schema:org.everit.json.schema:1.11.0'
+  implementation 'ch.qos.logback:logback-classic:1.2.8'
+  implementation 'ch.qos.logback:logback-core:1.2.8'
+  implementation 'ch.qos.logback.contrib:logback-jackson:0.1.5'
+  implementation 'ch.qos.logback.contrib:logback-json-classic:0.1.5'
+  implementation 'net.logstash.logback:logstash-logback-encoder:7.0.1'
+  implementation 'org.slf4j:jcl-over-slf4j:1.7.32'
+  implementation 'org.slf4j:slf4j-api:1.7.32'
+  implementation 'ch.qos.logback:logback-classic:1.2.8'
+  implementation 'com.google.code.gson:gson:2.8.9'
+  implementation 'com.google.guava:guava:31.0.1-jre'
+  implementation 'commons-io:commons-io:2.11.0'
+  implementation 'org.apache.commons:commons-text:1.9'
+  implementation 'org.springframework:spring-core:5.3.13'
+  implementation 'org.springframework:spring-context:5.3.13'
+  implementation 'org.springframework:spring-instrument:5.3.13'
+  implementation 'org.springframework:spring-tx:5.3.13'
+  testImplementation 'com.unideb.qsa:qsa-config-domain:1.1.5'
+  testImplementation 'org.testng:testng:7.4.0'
 }
 
-sourceCompatibility = '11'
+sourceCompatibility = '17'
 
 tasks.withType(JavaCompile) {
-	options.encoding = 'UTF-8'
+  options.encoding = 'UTF-8'
 }
 
 checkstyle {
-	toolVersion = '8.38'
-	configFile = file("${rootDir}/support/code-formatting/checkstyle/checkstyle.xml")
-	configDir = file("${rootDir}/support/code-formatting/checkstyle/")
-	showViolations = true
-	ignoreFailures = false
+  toolVersion = '9.2'
+  configFile = file("${rootDir}/support/code-formatting/checkstyle/checkstyle.xml")
+  configDirectory = file("${rootDir}/support/code-formatting/checkstyle/")
+  showViolations = true
+  ignoreFailures = false
 }
 
 test {
-	useTestNG()
-	testLogging.showStandardStreams = true
+  useTestNG()
+  testLogging.showStandardStreams = true
 }
 
-afterEvaluate {
-	install.dependsOn(assembleConfigs)
-}
-
-task assembleConfigs(type: JavaExec) {
-	classpath = sourceSets.test.runtimeClasspath
-	main = "com.unideb.qsa.config.pack.AssemblerApplication"
+application {
+  mainClassName = javaMainClass
 }
