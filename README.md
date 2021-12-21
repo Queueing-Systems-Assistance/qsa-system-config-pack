@@ -4,4 +4,4 @@
 
 Build the config pack:
   - Use `gradle clean build` to build the project
-  - If you want to deploy it into your local repository, issue `gradle clean install`
+  - If you want to deploy it into your local repository, issue `gradle clean run`

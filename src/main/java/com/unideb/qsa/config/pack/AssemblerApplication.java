@@ -50,7 +50,7 @@ public class AssemblerApplication {
 
     private void save() throws IOException {
         LOGGER.info("Writing config pack to [{}]", AssemblerApplication.RESULT_FILE);
-        Files.write(Paths.get(AssemblerApplication.RESULT_FILE), configPack.toString().getBytes(Charsets.UTF_8));
+        Files.writeString(Paths.get(AssemblerApplication.RESULT_FILE), configPack.toString(), Charsets.UTF_8);
     }
 
     private JsonArray loadConfigs(Resource[] resources) {
@@ -69,4 +69,3 @@ public class AssemblerApplication {
         return jsonArray;
     }
 }
-

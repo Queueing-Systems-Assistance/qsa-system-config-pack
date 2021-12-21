@@ -2,9 +2,9 @@ package com.unideb.qsa.config.pack.validators;
 
 import java.io.File;
 import java.util.Collection;
-import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import com.unideb.qsa.config.pack.log.Log;
 import com.unideb.qsa.config.pack.pack.ConfigPackFile;
@@ -27,11 +27,10 @@ public class DirectoryStructureValidator {
     }
 
     private void validateChildrenFiles(File root) {
-        List.of(Objects.requireNonNull(root.listFiles()))
-            .stream()
-            .filter(file -> !file.isDirectory() || !file.getName().equals(ALLOWED_MAIN_DIRECTORY))
-            .map(File::getName)
-            .forEach(name -> Log.logFail(INVALID_ROOT_DIRECTORIES, String.format(ROOT_DIRECTORY_ERROR, root, ALLOWED_MAIN_DIRECTORY, name)));
+        Stream.of(Objects.requireNonNull(root.listFiles()))
+              .filter(file -> !file.isDirectory() || !file.getName().equals(ALLOWED_MAIN_DIRECTORY))
+              .map(File::getName)
+              .forEach(name -> Log.logFail(INVALID_ROOT_DIRECTORIES, String.format(ROOT_DIRECTORY_ERROR, root, ALLOWED_MAIN_DIRECTORY, name)));
     }
 
     private Collection<File> getRootDirectories(Collection<ConfigPackFile> configDefinitionFiles) {
