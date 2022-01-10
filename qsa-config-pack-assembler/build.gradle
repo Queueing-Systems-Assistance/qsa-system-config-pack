@@ -1,0 +1,31 @@
+apply plugin: 'application'
+
+dependencies {
+  implementation libs.spring.core
+  implementation libs.gson
+  testImplementation libs.commons.text
+  testImplementation libs.qsa.config.domain
+  testImplementation libs.json.schema
+  testImplementation libs.testng
+
+}
+sourceCompatibility = '17'
+targetCompatibility = '17'
+
+description = 'qsa-config-pack-assembler'
+
+application {
+  mainClassName = 'com.unideb.qsa.config.pack.AssemblerApplication'
+}
+
+task copyConfigPack() {
+  doLast {
+    println('Copying config-pack.json to the resolver module...')
+    copy {
+      from "${buildDir}/config-pack.json"
+      into "${buildDir.parentFile.parent}/qsa-config-pack-retriever/src/main/resources"
+    }
+  }
+}
+
+run.finalizedBy(copyConfigPack)

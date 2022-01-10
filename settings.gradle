@@ -1,1 +1,35 @@
-rootProject.name = 'qsa-system-config-pack'
+rootProject.name = 'qsa-config-pack'
+
+enableFeaturePreview('VERSION_CATALOGS')
+
+dependencyResolutionManagement {
+  repositories {
+    mavenCentral()
+    maven {
+      url 'https://jitpack.io'
+    }
+    maven {
+      url 'https://maven.pkg.github.com/Queueing-Systems-Assistance/qsa'
+      credentials {
+        username = System.getenv('GITHUB_USERNAME') ?: 'YOUR_USERNAME'
+        password = System.getenv('GITHUB_TOKEN') ?: 'YOUR_TOKEN'
+      }
+    }
+  }
+  versionCatalogs {
+    libs {
+      version('checkstyle', '9.2')
+      alias('aws-lambda-java-events').to('com.amazonaws:aws-lambda-java-events:3.11.0')
+      alias('aws-lambda-java-core').to('com.amazonaws:aws-lambda-java-core:1.2.1')
+      alias('testng').to('org.testng:testng:7.4.0')
+      alias('json-schema').to('com.github.everit-org.json-schema:org.everit.json.schema:1.11.0')
+      alias('gson').to('com.google.code.gson:gson:2.8.9')
+      alias('commons-text').to('org.apache.commons:commons-text:1.9')
+      alias('spring-core').to('org.springframework:spring-core:5.3.14')
+      alias('qsa-config-domain').to('com.unideb.qsa:qsa-config-domain:1.1.5')
+    }
+  }
+}
+
+include('qsa-config-pack-assembler')
+include('qsa-config-pack-retriever')

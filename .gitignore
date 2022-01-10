@@ -8,3 +8,5 @@ classes/
 # Builds
 **/build/**
 *.log
+**/.aws-sam
+config-pack.json
