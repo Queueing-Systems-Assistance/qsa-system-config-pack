@@ -1,4 +1,6 @@
 dependencies {
+  implementation libs.qsa.config.domain
+  implementation libs.gson
   implementation libs.aws.lambda.java.core
   compileOnly libs.aws.lambda.java.events
 }
