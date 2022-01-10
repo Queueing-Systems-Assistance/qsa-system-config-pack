@@ -1,0 +1,16 @@
+dependencies {
+  implementation libs.aws.lambda.java.core
+  compileOnly libs.aws.lambda.java.events
+}
+sourceCompatibility = '11'
+targetCompatibility = '11'
+
+description = 'qsa-config-pack-retriever'
+
+task buildZip(type: Zip) {
+  from compileJava
+  from processResources
+  into('lib') {
+    from configurations.runtimeClasspath
+  }
+}
