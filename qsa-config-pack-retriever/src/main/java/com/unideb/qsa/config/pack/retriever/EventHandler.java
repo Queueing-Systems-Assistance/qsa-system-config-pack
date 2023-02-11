@@ -12,10 +12,10 @@ import com.amazonaws.services.lambda.runtime.RequestHandler;
 /**
  * Handler for AWS Lambda calls.
  */
-public class EventHandler implements RequestHandler<String, String> {
+public class EventHandler implements RequestHandler<Object, String> {
 
     @Override
-    public String handleRequest(String input, Context context) {
+    public String handleRequest(Object input, Context context) {
         var path = getConfigPath();
         try {
             return Files.lines(path).collect(Collectors.joining("\n"));
