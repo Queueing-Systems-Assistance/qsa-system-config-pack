@@ -115,11 +115,11 @@ workflows:
               only:
                 - /^master/
                 - /^feature\/QSA-[0-9]+/
-          post-steps:
-            - jira/notify:
-                scan_commit_body: true
-                job_type: build
-                token_name: CIRCLE_CI_ARTIFACTS
+          #post-steps:
+          #  - jira/notify:
+          #      scan_commit_body: true
+          #      job_type: build
+          #      token_name: CIRCLE_CI_ARTIFACTS
       - deploy-hold-lab:
           requires:
             - build
@@ -134,12 +134,12 @@ workflows:
               only:
                 - /^master/
                 - /^feature\/QSA-[0-9]+/
-          post-steps:
-            - jira/notify:
-                scan_commit_body: true
-                job_type: deployment
-                environment_type: staging
-                token_name: CIRCLE_CI_ARTIFACTS
+          #post-steps:
+          #  - jira/notify:
+          #      scan_commit_body: true
+          #      job_type: deployment
+          #      environment_type: staging
+          #      token_name: CIRCLE_CI_ARTIFACTS
       - deploy-hold-prod:
           requires:
             - deploy-lab
