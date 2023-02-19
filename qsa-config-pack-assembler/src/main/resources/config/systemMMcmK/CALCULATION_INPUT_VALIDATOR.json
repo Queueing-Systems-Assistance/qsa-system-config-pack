@@ -2,24 +2,24 @@
   "config": "CALCULATION_INPUT_VALIDATOR",
   "name": "systemMMcmK",
   "configCondition": [
-    "output"
+    "feature"
   ],
   "values": [
     {
       "value": "smallerEqualsnFrommValidator",
-      "output": [
+      "feature": [
         "Pn"
       ]
     },
     {
       "value": "smallernFrommValidator",
-      "output": [
+      "feature": [
         "PinFin"
       ]
     },
     {
       "value": "equalsc1Validator",
-      "output": [
+      "feature": [
         "FTt"
       ]
     }

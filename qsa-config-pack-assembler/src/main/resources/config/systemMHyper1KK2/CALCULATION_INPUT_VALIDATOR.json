@@ -2,12 +2,12 @@
     "config": "CALCULATION_INPUT_VALIDATOR",
     "name": "systemMHyper1KK2",
     "configCondition": [
-      "output"
+      "feature"
     ],
     "values": [
       {
         "value": "smallerEqualsnFromKFinValidator",
-        "output": [
+        "feature": [
             "Pn"
         ]
       }

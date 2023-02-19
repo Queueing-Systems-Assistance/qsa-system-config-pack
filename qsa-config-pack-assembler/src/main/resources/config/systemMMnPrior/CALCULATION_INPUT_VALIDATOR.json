@@ -2,16 +2,13 @@
   "config": "CALCULATION_INPUT_VALIDATOR",
   "name": "systemMMnPrior",
   "configCondition": [
-    "feature",
-    "output"
+    "feature"
   ],
   "values": [
     {
       "value": "positiveValidator",
       "feature": [
-        "Lambda3"
-      ],
-      "output": [
+        "Lambda3",
         "NAvg3",
         "QAvg3",
         "WAvg3",

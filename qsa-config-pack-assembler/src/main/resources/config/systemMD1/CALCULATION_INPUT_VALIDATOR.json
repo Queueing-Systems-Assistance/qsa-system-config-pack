@@ -2,12 +2,12 @@
   "config": "CALCULATION_INPUT_VALIDATOR",
   "name": "systemMD1",
   "configCondition": [
-    "output"
+    "feature"
   ],
   "values": [
     {
       "value": "biggerEqualstFromDsValidator",
-      "output": [
+      "feature": [
         "FTt"
       ]
     }

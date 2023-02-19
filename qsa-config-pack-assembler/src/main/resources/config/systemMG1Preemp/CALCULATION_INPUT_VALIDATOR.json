@@ -2,8 +2,7 @@
   "config": "CALCULATION_INPUT_VALIDATOR",
   "name": "systemMG1Preemp",
   "configCondition": [
-    "feature",
-    "output"
+    "feature"
   ],
   "values": [
     {
@@ -12,9 +11,7 @@
         "Lambda3",
         "eSc3",
         "eSPow2c3",
-        "eSPow3c3"
-      ],
-      "output": [
+        "eSPow3c3",
         "D2S3",
         "Ro3",
         "WAvg3",

@@ -1,9 +1,6 @@
 {
   "config": "SPECIFIC_VALIDATOR_CONSTRAINTS",
   "name": "systemMM1",
-  "configCondition": [
-    "feature"
-  ],
   "values": [
     {
       "value": [

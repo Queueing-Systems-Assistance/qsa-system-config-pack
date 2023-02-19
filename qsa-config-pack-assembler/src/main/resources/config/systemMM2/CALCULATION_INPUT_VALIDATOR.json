@@ -2,13 +2,12 @@
   "config": "CALCULATION_INPUT_VALIDATOR",
   "name": "systemMM2",
   "configCondition": [
-    "feature",
-    "output"
+    "feature"
   ],
   "values": [
     {
       "value": "smallerrFromHunderValidator",
-      "output": [
+      "feature": [
         "PiWr"
       ]
     }
